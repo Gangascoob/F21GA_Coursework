@@ -828,3 +828,1112 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.10.31-14.50.28:312][656]AssetCheck: New page: Asset Save: multiple assets
 [2022.10.31-14.50.28:312][656]LogContentValidation: Display: Validating World /Game/AnimationScene.AnimationScene
 [2022.10.31-14.50.28:313][656]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/AnimationScene_BuiltData.AnimationScene_BuiltData
+[2022.10.31-14.52.50:970][836]LogSlate: Window 'Choose Location for importing the scene content' being destroyed
+[2022.10.31-14.52.51:065][836]LogFactory: FactoryCreateFile: World with FbxSceneImportFactory (0 0 ../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Render/garage.fbx)
+[2022.10.31-14.52.51:136][836]LogFbx: Loading FBX Scene from ../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Render/garage.fbx
+[2022.10.31-14.52.51:438][836]LogFbx: FBX Scene Loaded Succesfully
+[2022.10.31-14.53.24:852][836]LogSlate: Window 'FBX Scene Import Options' being destroyed
+[2022.10.31-14.53.24:878][836]LogMaterial: Display: Missing cached shadermap for Concrete in PCD3D_SM5, Default, SM5 (DDC key hash: 64F101371A471675DACCEB39FB7C5448A96E9470), compiling. 
+[2022.10.31-14.53.24:883][836]LogMaterial: Display: Missing cached shadermap for InnerWall in PCD3D_SM5, Default, SM5 (DDC key hash: 4BD99580C29693C82FB0029F73F70C131F61815C), compiling. 
+[2022.10.31-14.53.24:885][836]LogFbx: Display: Triangulating static mesh Cube.001
+[2022.10.31-14.53.24:891][836]LogStaticMesh: Display: Building static mesh Cube_002...
+[2022.10.31-14.53.24:896][836]LogStaticMesh: Built static mesh [0.01s] /Game/Cube_002.Cube_002
+[2022.10.31-14.53.24:905][836]LogFbx: Display: Triangulating static mesh Cube.002
+[2022.10.31-14.53.24:906][836]LogStaticMesh: Display: Building static mesh Cube_003...
+[2022.10.31-14.53.24:907][836]LogStaticMesh: Built static mesh [0.00s] /Game/Cube_003.Cube_003
+[2022.10.31-14.53.24:913][836]LogMaterial: Display: Missing cached shadermap for Floor in PCD3D_SM5, Default, SM5 (DDC key hash: DFEE720207A43F24AA13442F1AF2CB01E1B3428B), compiling. 
+[2022.10.31-14.53.24:915][836]LogFbx: Display: Triangulating static mesh Plane
+[2022.10.31-14.53.24:915][836]LogStaticMesh: Display: Building static mesh Plane...
+[2022.10.31-14.53.24:917][836]LogStaticMesh: Built static mesh [0.00s] /Game/Plane.Plane
+[2022.10.31-14.53.24:919][836]LogFbx: Display: Triangulating static mesh Cube.003
+[2022.10.31-14.53.24:920][836]LogStaticMesh: Display: Building static mesh Cube_004...
+[2022.10.31-14.53.24:921][836]LogStaticMesh: Built static mesh [0.00s] /Game/Cube_004.Cube_004
+[2022.10.31-14.53.24:924][836]LogFbx: Display: Triangulating static mesh Cube.004
+[2022.10.31-14.53.24:925][836]LogStaticMesh: Display: Building static mesh Cube_005...
+[2022.10.31-14.53.24:928][836]LogStaticMesh: Built static mesh [0.00s] /Game/Cube_005.Cube_005
+[2022.10.31-14.53.24:931][836]LogFbx: Display: Triangulating static mesh Cube.005
+[2022.10.31-14.53.24:932][836]LogStaticMesh: Display: Building static mesh Cube_006...
+[2022.10.31-14.53.24:933][836]LogStaticMesh: Built static mesh [0.00s] /Game/Cube_006.Cube_006
+[2022.10.31-14.53.24:937][836]LogFbx: Display: Triangulating static mesh Cube
+[2022.10.31-14.53.24:937][836]LogStaticMesh: Display: Building static mesh Cube_001...
+[2022.10.31-14.53.24:942][836]LogStaticMesh: Built static mesh [0.00s] /Game/Cube_001.Cube_001
+[2022.10.31-14.53.24:948][836]LogMaterial: Display: Missing cached shadermap for TyreSurface_001 in PCD3D_SM5, Default, SM5 (DDC key hash: 4D5DFCF1B1D3D0650AA422AA108FF207F40C650E), compiling. 
+[2022.10.31-14.53.24:950][836]LogFbx: Display: Triangulating static mesh Car1FL
+[2022.10.31-14.53.25:322][836]LogStaticMesh: Display: Building static mesh Mesh_004...
+[2022.10.31-14.53.25:472][836]LogStaticMesh: Built static mesh [0.15s] /Game/Mesh_004.Mesh_004
+[2022.10.31-14.53.25:493][836]LogStaticMesh: Warning: Mesh_004 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.25:493][836]LogStaticMesh: Warning: Mesh_004 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.25:518][836]LogFbx: Display: Triangulating static mesh Car1FR
+[2022.10.31-14.53.25:901][836]LogStaticMesh: Display: Building static mesh Mesh_006...
+[2022.10.31-14.53.26:051][836]LogStaticMesh: Built static mesh [0.15s] /Game/Mesh_006.Mesh_006
+[2022.10.31-14.53.26:072][836]LogStaticMesh: Warning: Mesh_006 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.26:073][836]LogStaticMesh: Warning: Mesh_006 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.26:104][836]LogMaterial: Display: Missing cached shadermap for InsideWheel_001 in PCD3D_SM5, Default, SM5 (DDC key hash: AF7892E3BA0938CA71653016DAE35DE67F24841A), compiling. 
+[2022.10.31-14.53.26:108][836]LogMaterial: Display: Missing cached shadermap for WheelMetal_001 in PCD3D_SM5, Default, SM5 (DDC key hash: 210C1553A3EAE76D688E010F8234A2129CC3E8CF), compiling. 
+[2022.10.31-14.53.26:109][836]LogFbx: Display: Triangulating static mesh Car1FRInner
+[2022.10.31-14.53.26:307][836]LogStaticMesh: Display: Building static mesh Mesh_007...
+[2022.10.31-14.53.26:377][836]LogStaticMesh: Built static mesh [0.07s] /Game/Mesh_007.Mesh_007
+[2022.10.31-14.53.26:387][836]LogStaticMesh: Warning: Mesh_007 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.26:387][836]LogStaticMesh: Warning: Mesh_007 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.26:401][836]LogFbx: Display: Triangulating static mesh Car1FLInner
+[2022.10.31-14.53.26:596][836]LogStaticMesh: Display: Building static mesh Mesh_005...
+[2022.10.31-14.53.26:673][836]LogStaticMesh: Built static mesh [0.08s] /Game/Mesh_005.Mesh_005
+[2022.10.31-14.53.26:683][836]LogStaticMesh: Warning: Mesh_005 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.26:683][836]LogStaticMesh: Warning: Mesh_005 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.26:697][836]LogFbx: Display: Triangulating static mesh Car1RL
+[2022.10.31-14.53.27:070][836]LogStaticMesh: Display: Building static mesh Mesh_008...
+[2022.10.31-14.53.27:218][836]LogStaticMesh: Built static mesh [0.15s] /Game/Mesh_008.Mesh_008
+[2022.10.31-14.53.27:239][836]LogStaticMesh: Warning: Mesh_008 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.27:239][836]LogStaticMesh: Warning: Mesh_008 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.27:266][836]LogFbx: Display: Triangulating static mesh Car1RR
+[2022.10.31-14.53.27:618][836]LogStaticMesh: Display: Building static mesh Mesh_009...
+[2022.10.31-14.53.27:765][836]LogStaticMesh: Built static mesh [0.15s] /Game/Mesh_009.Mesh_009
+[2022.10.31-14.53.27:787][836]LogStaticMesh: Warning: Mesh_009 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.27:787][836]LogStaticMesh: Warning: Mesh_009 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.27:811][836]LogFbx: Display: Triangulating static mesh Car1RLInner
+[2022.10.31-14.53.28:010][836]LogStaticMesh: Display: Building static mesh Mesh_010...
+[2022.10.31-14.53.28:083][836]LogStaticMesh: Built static mesh [0.07s] /Game/Mesh_010.Mesh_010
+[2022.10.31-14.53.28:093][836]LogStaticMesh: Warning: Mesh_010 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.28:093][836]LogStaticMesh: Warning: Mesh_010 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.28:107][836]LogFbx: Display: Triangulating static mesh Car1RRInner
+[2022.10.31-14.53.28:303][836]LogStaticMesh: Display: Building static mesh Mesh_011...
+[2022.10.31-14.53.28:374][836]LogStaticMesh: Built static mesh [0.07s] /Game/Mesh_011.Mesh_011
+[2022.10.31-14.53.28:384][836]LogStaticMesh: Warning: Mesh_011 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.28:384][836]LogStaticMesh: Warning: Mesh_011 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.28:401][836]LogMaterial: Display: Missing cached shadermap for MainLivery in PCD3D_SM5, Default, SM5 (DDC key hash: DD9836FA64D439CD675D83B36628D1109E4BAD38), compiling. 
+[2022.10.31-14.53.28:402][836]LogFbx: Display: Triangulating static mesh Car1Chassis
+[2022.10.31-14.53.29:860][836]LogStaticMesh: Display: Building static mesh Mesh_003...
+[2022.10.31-14.53.30:300][836]LogStaticMesh: Built static mesh [0.44s] /Game/Mesh_003.Mesh_003
+[2022.10.31-14.53.30:403][836]LogStaticMesh: Warning: Mesh_003 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2022.10.31-14.53.30:403][836]LogStaticMesh: Warning: Mesh_003 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.30:403][836]LogStaticMesh: Warning: Mesh_003 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.30:513][836]LogFbx: Display: Triangulating static mesh Car2FL
+[2022.10.31-14.53.30:877][836]LogStaticMesh: Display: Building static mesh Mesh_012...
+[2022.10.31-14.53.31:026][836]LogStaticMesh: Built static mesh [0.15s] /Game/Mesh_012.Mesh_012
+[2022.10.31-14.53.31:048][836]LogStaticMesh: Warning: Mesh_012 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.31:048][836]LogStaticMesh: Warning: Mesh_012 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.31:077][836]LogFbx: Display: Triangulating static mesh Car2FR
+[2022.10.31-14.53.31:430][836]LogStaticMesh: Display: Building static mesh Mesh_013...
+[2022.10.31-14.53.31:584][836]LogStaticMesh: Built static mesh [0.15s] /Game/Mesh_013.Mesh_013
+[2022.10.31-14.53.31:605][836]LogStaticMesh: Warning: Mesh_013 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.31:606][836]LogStaticMesh: Warning: Mesh_013 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.31:633][836]LogFbx: Display: Triangulating static mesh Car2FRInner
+[2022.10.31-14.53.31:845][836]LogStaticMesh: Display: Building static mesh Mesh_014...
+[2022.10.31-14.53.31:923][836]LogStaticMesh: Built static mesh [0.08s] /Game/Mesh_014.Mesh_014
+[2022.10.31-14.53.31:935][836]LogStaticMesh: Warning: Mesh_014 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.31:935][836]LogStaticMesh: Warning: Mesh_014 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.31:950][836]LogFbx: Display: Triangulating static mesh Car2FLInner
+[2022.10.31-14.53.32:155][836]LogStaticMesh: Display: Building static mesh Mesh_015...
+[2022.10.31-14.53.32:228][836]LogStaticMesh: Built static mesh [0.07s] /Game/Mesh_015.Mesh_015
+[2022.10.31-14.53.32:239][836]LogStaticMesh: Warning: Mesh_015 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.32:239][836]LogStaticMesh: Warning: Mesh_015 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.32:255][836]LogFbx: Display: Triangulating static mesh Car2RL
+[2022.10.31-14.53.32:647][836]LogStaticMesh: Display: Building static mesh Mesh_016...
+[2022.10.31-14.53.32:808][836]LogStaticMesh: Built static mesh [0.16s] /Game/Mesh_016.Mesh_016
+[2022.10.31-14.53.32:830][836]LogStaticMesh: Warning: Mesh_016 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.32:830][836]LogStaticMesh: Warning: Mesh_016 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.32:858][836]LogFbx: Display: Triangulating static mesh Car2RR
+[2022.10.31-14.53.33:212][836]LogStaticMesh: Display: Building static mesh Mesh_017...
+[2022.10.31-14.53.33:376][836]LogStaticMesh: Built static mesh [0.16s] /Game/Mesh_017.Mesh_017
+[2022.10.31-14.53.33:397][836]LogStaticMesh: Warning: Mesh_017 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.33:397][836]LogStaticMesh: Warning: Mesh_017 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.33:424][836]LogFbx: Display: Triangulating static mesh Car2RLInner
+[2022.10.31-14.53.33:616][836]LogStaticMesh: Display: Building static mesh Mesh_018...
+[2022.10.31-14.53.33:687][836]LogStaticMesh: Built static mesh [0.07s] /Game/Mesh_018.Mesh_018
+[2022.10.31-14.53.33:698][836]LogStaticMesh: Warning: Mesh_018 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.33:698][836]LogStaticMesh: Warning: Mesh_018 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.33:712][836]LogFbx: Display: Triangulating static mesh Car2RRInner
+[2022.10.31-14.53.33:918][836]LogStaticMesh: Display: Building static mesh Mesh_019...
+[2022.10.31-14.53.33:997][836]LogStaticMesh: Built static mesh [0.08s] /Game/Mesh_019.Mesh_019
+[2022.10.31-14.53.34:008][836]LogStaticMesh: Warning: Mesh_019 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.34:008][836]LogStaticMesh: Warning: Mesh_019 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.34:022][836]LogFbx: Display: Triangulating static mesh Car2Chassis
+[2022.10.31-14.53.35:467][836]LogStaticMesh: Display: Building static mesh Mesh_020...
+[2022.10.31-14.53.35:918][836]LogStaticMesh: Built static mesh [0.45s] /Game/Mesh_020.Mesh_020
+[2022.10.31-14.53.36:021][836]LogStaticMesh: Warning: Mesh_020 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2022.10.31-14.53.36:021][836]LogStaticMesh: Warning: Mesh_020 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.36:021][836]LogStaticMesh: Warning: Mesh_020 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.36:134][836]LogMaterial: Display: Missing cached shadermap for OutsideMetalSheen in PCD3D_SM5, Default, SM5 (DDC key hash: 6CEC08EAA321AE22C91DEB4CA4A4F2D06BDF747B), compiling. 
+[2022.10.31-14.53.36:138][836]LogMaterial: Display: Missing cached shadermap for LightEmissive in PCD3D_SM5, Default, SM5 (DDC key hash: 6B31CC7140E78B23A0ED83C9F57810A902D6AD0F), compiling. 
+[2022.10.31-14.53.36:140][836]LogFbx: Display: Triangulating static mesh Cube.006
+[2022.10.31-14.53.36:142][836]LogStaticMesh: Display: Building static mesh Cube...
+[2022.10.31-14.53.36:149][836]LogStaticMesh: Built static mesh [0.01s] /Game/Cube.Cube
+[2022.10.31-14.53.36:156][836]LogMaterial: Display: Missing cached shadermap for MetalBracket in PCD3D_SM5, Default, SM5 (DDC key hash: E18083DC0A8278E8FB0C7D1148FB1C820068B3B5), compiling. 
+[2022.10.31-14.53.36:158][836]LogFbx: Display: Triangulating static mesh Cube.007
+[2022.10.31-14.53.36:158][836]LogStaticMesh: Display: Building static mesh Cube_007...
+[2022.10.31-14.53.36:160][836]LogStaticMesh: Built static mesh [0.00s] /Game/Cube_007.Cube_007
+[2022.10.31-14.53.36:164][836]LogFbx: Display: Triangulating static mesh Cube.008
+[2022.10.31-14.53.36:165][836]LogStaticMesh: Display: Building static mesh Cube_008...
+[2022.10.31-14.53.36:166][836]LogStaticMesh: Built static mesh [0.00s] /Game/Cube_008.Cube_008
+[2022.10.31-14.53.36:169][836]LogFbx: Display: Triangulating static mesh Cylinder
+[2022.10.31-14.53.36:171][836]LogStaticMesh: Display: Building static mesh Cylinder...
+[2022.10.31-14.53.36:174][836]LogStaticMesh: Built static mesh [0.00s] /Game/Cylinder.Cylinder
+[2022.10.31-14.53.36:178][836]LogFbx: Display: Triangulating static mesh Cylinder.001
+[2022.10.31-14.53.36:180][836]LogStaticMesh: Display: Building static mesh Cylinder_001...
+[2022.10.31-14.53.36:183][836]LogStaticMesh: Built static mesh [0.00s] /Game/Cylinder_001.Cylinder_001
+[2022.10.31-14.53.36:189][836]LogMaterial: Display: Missing cached shadermap for HangingRope in PCD3D_SM5, Default, SM5 (DDC key hash: 31CE1045B64E8BC56B8A1987F62A7F411D3AAC68), compiling. 
+[2022.10.31-14.53.36:191][836]LogFbx: Display: Triangulating static mesh Cylinder.002
+[2022.10.31-14.53.36:193][836]LogStaticMesh: Display: Building static mesh Cylinder_002...
+[2022.10.31-14.53.36:196][836]LogStaticMesh: Built static mesh [0.00s] /Game/Cylinder_002.Cylinder_002
+[2022.10.31-14.53.36:200][836]LogFbx: Display: Triangulating static mesh Cylinder.003
+[2022.10.31-14.53.36:202][836]LogStaticMesh: Display: Building static mesh Cylinder_003...
+[2022.10.31-14.53.36:205][836]LogStaticMesh: Built static mesh [0.00s] /Game/Cylinder_003.Cylinder_003
+[2022.10.31-14.53.36:209][836]LogFbx: Display: Triangulating static mesh Torus
+[2022.10.31-14.53.36:448][836]LogStaticMesh: Display: Building static mesh Mesh...
+[2022.10.31-14.53.36:528][836]LogStaticMesh: Built static mesh [0.08s] /Game/Mesh.Mesh
+[2022.10.31-14.53.36:545][836]LogStaticMesh: Warning: Mesh has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.36:545][836]LogStaticMesh: Warning: Mesh has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.36:567][836]LogFbx: Display: Triangulating static mesh Torus.001
+[2022.10.31-14.53.36:804][836]LogStaticMesh: Display: Building static mesh Mesh_001...
+[2022.10.31-14.53.36:884][836]LogStaticMesh: Built static mesh [0.08s] /Game/Mesh_001.Mesh_001
+[2022.10.31-14.53.36:899][836]LogStaticMesh: Warning: Mesh_001 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.36:899][836]LogStaticMesh: Warning: Mesh_001 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.36:921][836]LogMaterial: Display: Missing cached shadermap for OutsideMetalSheen_001 in PCD3D_SM5, Default, SM5 (DDC key hash: E1CC22004D85C772C77025C200C043A269F84014), compiling. 
+[2022.10.31-14.53.36:926][836]LogMaterial: Display: Missing cached shadermap for LightEmissive_001 in PCD3D_SM5, Default, SM5 (DDC key hash: 27CC19A438E811EBAF3F5471B992C0A6BC5BAC2E), compiling. 
+[2022.10.31-14.53.36:928][836]LogFbx: Display: Triangulating static mesh Cube.009
+[2022.10.31-14.53.36:929][836]LogStaticMesh: Display: Building static mesh Cube_009...
+[2022.10.31-14.53.36:932][836]LogStaticMesh: Built static mesh [0.00s] /Game/Cube_009.Cube_009
+[2022.10.31-14.53.36:938][836]LogMaterial: Display: Missing cached shadermap for MetalBracket_001 in PCD3D_SM5, Default, SM5 (DDC key hash: 0BD2794E9CB5658CAF67F73A20C39A39CC450026), compiling. 
+[2022.10.31-14.53.36:940][836]LogFbx: Display: Triangulating static mesh Torus.002
+[2022.10.31-14.53.37:176][836]LogStaticMesh: Display: Building static mesh Mesh_002...
+[2022.10.31-14.53.37:252][836]LogStaticMesh: Built static mesh [0.08s] /Game/Mesh_002.Mesh_002
+[2022.10.31-14.53.37:266][836]LogStaticMesh: Warning: Mesh_002 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.37:267][836]LogStaticMesh: Warning: Mesh_002 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.37:286][836]LogFbx: Display: Triangulating static mesh Torus.003
+[2022.10.31-14.53.37:525][836]LogStaticMesh: Display: Building static mesh Mesh_021...
+[2022.10.31-14.53.37:604][836]LogStaticMesh: Built static mesh [0.08s] /Game/Mesh_021.Mesh_021
+[2022.10.31-14.53.37:619][836]LogStaticMesh: Warning: Mesh_021 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.37:619][836]LogStaticMesh: Warning: Mesh_021 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.37:638][836]LogFbx: Display: Triangulating static mesh Cylinder.004
+[2022.10.31-14.53.37:641][836]LogStaticMesh: Display: Building static mesh Cylinder_004...
+[2022.10.31-14.53.37:644][836]LogStaticMesh: Built static mesh [0.00s] /Game/Cylinder_004.Cylinder_004
+[2022.10.31-14.53.37:648][836]LogFbx: Display: Triangulating static mesh Cylinder.005
+[2022.10.31-14.53.37:650][836]LogStaticMesh: Display: Building static mesh Cylinder_005...
+[2022.10.31-14.53.37:653][836]LogStaticMesh: Built static mesh [0.00s] /Game/Cylinder_005.Cylinder_005
+[2022.10.31-14.53.37:659][836]LogMaterial: Display: Missing cached shadermap for HangingRope_001 in PCD3D_SM5, Default, SM5 (DDC key hash: D6735A8061758EE860BA1CB1358E2DB6243D31EE), compiling. 
+[2022.10.31-14.53.37:660][836]LogFbx: Display: Triangulating static mesh Cylinder.006
+[2022.10.31-14.53.37:662][836]LogStaticMesh: Display: Building static mesh Cylinder_006...
+[2022.10.31-14.53.37:665][836]LogStaticMesh: Built static mesh [0.00s] /Game/Cylinder_006.Cylinder_006
+[2022.10.31-14.53.37:670][836]LogFbx: Display: Triangulating static mesh Cylinder.007
+[2022.10.31-14.53.37:672][836]LogStaticMesh: Display: Building static mesh Cylinder_007...
+[2022.10.31-14.53.37:675][836]LogStaticMesh: Built static mesh [0.00s] /Game/Cylinder_007.Cylinder_007
+[2022.10.31-14.53.37:679][836]LogFbx: Display: Triangulating static mesh Cube.010
+[2022.10.31-14.53.37:680][836]LogStaticMesh: Display: Building static mesh Cube_010...
+[2022.10.31-14.53.37:681][836]LogStaticMesh: Built static mesh [0.00s] /Game/Cube_010.Cube_010
+[2022.10.31-14.53.37:685][836]LogFbx: Display: Triangulating static mesh Cube.011
+[2022.10.31-14.53.37:685][836]LogStaticMesh: Display: Building static mesh Cube_011...
+[2022.10.31-14.53.37:686][836]LogStaticMesh: Built static mesh [0.00s] /Game/Cube_011.Cube_011
+[2022.10.31-14.53.37:690][836]LogFbx: Display: Triangulating static mesh Base
+[2022.10.31-14.53.37:691][836]LogStaticMesh: Display: Building static mesh Cube_012...
+[2022.10.31-14.53.37:693][836]LogStaticMesh: Built static mesh [0.00s] /Game/Cube_012.Cube_012
+[2022.10.31-14.53.37:697][836]LogFbx: Display: Triangulating static mesh Base.001
+[2022.10.31-14.53.37:698][836]LogStaticMesh: Display: Building static mesh Cube_014...
+[2022.10.31-14.53.37:699][836]LogStaticMesh: Built static mesh [0.00s] /Game/Cube_014.Cube_014
+[2022.10.31-14.53.37:705][836]LogMaterial: Display: Missing cached shadermap for ScreenBlack in PCD3D_SM5, Default, SM5 (DDC key hash: 88A6540F0B6276A06EE774EC2A0649D9E180F4AB), compiling. 
+[2022.10.31-14.53.37:709][836]LogMaterial: Display: Missing cached shadermap for ScreenBase in PCD3D_SM5, Default, SM5 (DDC key hash: 8EE878699EB812E15113E6C24D4D267BF5403750), compiling. 
+[2022.10.31-14.53.37:711][836]LogFbx: Display: Triangulating static mesh Screen
+[2022.10.31-14.53.37:714][836]LogStaticMesh: Display: Building static mesh Cylinder_008...
+[2022.10.31-14.53.37:717][836]LogStaticMesh: Built static mesh [0.00s] /Game/Cylinder_008.Cylinder_008
+[2022.10.31-14.53.37:721][836]LogFbx: Display: Triangulating static mesh Screen.001
+[2022.10.31-14.53.37:724][836]LogStaticMesh: Display: Building static mesh Cylinder_009...
+[2022.10.31-14.53.37:741][836]LogStaticMesh: Built static mesh [0.02s] /Game/Cylinder_009.Cylinder_009
+[2022.10.31-14.53.37:748][836]LogMaterial: Display: Missing cached shadermap for TableTop in PCD3D_SM5, Default, SM5 (DDC key hash: 2E5D1C49B4FE66D01A2B19565DEFD96AADA24E08), compiling. 
+[2022.10.31-14.53.37:749][836]LogFbx: Display: Triangulating static mesh Tabletop
+[2022.10.31-14.53.37:750][836]LogStaticMesh: Display: Building static mesh Cube_013...
+[2022.10.31-14.53.37:755][836]LogStaticMesh: Built static mesh [0.01s] /Game/Cube_013.Cube_013
+[2022.10.31-14.53.37:759][836]LogFbx: Display: Triangulating static mesh Tabletop.001
+[2022.10.31-14.53.37:760][836]LogStaticMesh: Display: Building static mesh Cube_015...
+[2022.10.31-14.53.37:782][836]LogStaticMesh: Built static mesh [0.02s] /Game/Cube_015.Cube_015
+[2022.10.31-14.53.37:786][836]LogFbx: Display: Triangulating static mesh Base.002
+[2022.10.31-14.53.37:787][836]LogStaticMesh: Display: Building static mesh Cube_016...
+[2022.10.31-14.53.37:788][836]LogStaticMesh: Built static mesh [0.00s] /Game/Cube_016.Cube_016
+[2022.10.31-14.53.37:792][836]LogFbx: Display: Triangulating static mesh Tabletop.002
+[2022.10.31-14.53.37:793][836]LogStaticMesh: Display: Building static mesh Cube_017...
+[2022.10.31-14.53.37:795][836]LogStaticMesh: Built static mesh [0.00s] /Game/Cube_017.Cube_017
+[2022.10.31-14.53.37:799][836]LogFbx: Display: Triangulating static mesh Screen.002
+[2022.10.31-14.53.37:802][836]LogStaticMesh: Display: Building static mesh Cylinder_010...
+[2022.10.31-14.53.37:805][836]LogStaticMesh: Built static mesh [0.00s] /Game/Cylinder_010.Cylinder_010
+[2022.10.31-14.53.37:813][836]LogMaterial: Display: Missing cached shadermap for Material in PCD3D_SM5, Default, SM5 (DDC key hash: C3CFF000C5C27959A0774F884F168BFA15583F31), compiling. 
+[2022.10.31-14.53.37:817][836]LogMaterial: Display: Missing cached shadermap for Toolstation in PCD3D_SM5, Default, SM5 (DDC key hash: 4733832CA256CB130FEEFC486F41E4F03E038DD9), compiling. 
+[2022.10.31-14.53.37:818][836]LogFbx: Display: Triangulating static mesh Toolstation
+[2022.10.31-14.53.37:820][836]LogStaticMesh: Display: Building static mesh Cube_021...
+[2022.10.31-14.53.37:823][836]LogStaticMesh: Built static mesh [0.00s] /Game/Cube_021.Cube_021
+[2022.10.31-14.53.37:830][836]LogMaterial: Display: Missing cached shadermap for Wheels in PCD3D_SM5, Default, SM5 (DDC key hash: 2892474E7D1595A3037233BA14121AD530729978), compiling. 
+[2022.10.31-14.53.37:831][836]LogFbx: Display: Triangulating static mesh ToolstationWheels
+[2022.10.31-14.53.37:836][836]LogStaticMesh: Display: Building static mesh Cylinder_011...
+[2022.10.31-14.53.37:844][836]LogStaticMesh: Built static mesh [0.01s] /Game/Cylinder_011.Cylinder_011
+[2022.10.31-14.53.37:849][836]LogFbx: Display: Triangulating static mesh Toolstation.001
+[2022.10.31-14.53.37:852][836]LogStaticMesh: Display: Building static mesh Cube_022...
+[2022.10.31-14.53.37:854][836]LogStaticMesh: Built static mesh [0.00s] /Game/Cube_022.Cube_022
+[2022.10.31-14.53.37:858][836]LogFbx: Display: Triangulating static mesh ToolstationWheels.001
+[2022.10.31-14.53.37:864][836]LogStaticMesh: Display: Building static mesh Cylinder_012...
+[2022.10.31-14.53.37:870][836]LogStaticMesh: Built static mesh [0.01s] /Game/Cylinder_012.Cylinder_012
+[2022.10.31-14.53.37:878][836]LogMaterial: Display: Missing cached shadermap for Material_001 in PCD3D_SM5, Default, SM5 (DDC key hash: DDED3D089842D29B581AE388E141A327515D696D), compiling. 
+[2022.10.31-14.53.37:882][836]LogMaterial: Display: Missing cached shadermap for Material_002 in PCD3D_SM5, Default, SM5 (DDC key hash: 2140CB49D4125FE6DCE336404A1A7259A9C77A83), compiling. 
+[2022.10.31-14.53.37:884][836]LogFbx: Display: Triangulating static mesh Cube.012
+[2022.10.31-14.53.37:888][836]LogStaticMesh: Display: Building static mesh Cube_023...
+[2022.10.31-14.53.37:892][836]LogStaticMesh: Built static mesh [0.00s] /Game/Cube_023.Cube_023
+[2022.10.31-14.53.37:892][836]LogStaticMesh: Warning: Cube_023 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.37:892][836]LogStaticMesh: Warning: Cube_023 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.37:898][836]LogMaterial: Display: Missing cached shadermap for Material_003 in PCD3D_SM5, Default, SM5 (DDC key hash: B632D319BC5EBB9CDDCC35F8080DC18ED94DD647), compiling. 
+[2022.10.31-14.53.37:902][836]LogMaterial: Display: Missing cached shadermap for Material_004 in PCD3D_SM5, Default, SM5 (DDC key hash: 49257D683031C9AB3B605C0978D2A4F7F20F05BB), compiling. 
+[2022.10.31-14.53.37:904][836]LogFbx: Display: Triangulating static mesh Cube.013
+[2022.10.31-14.53.37:908][836]LogStaticMesh: Display: Building static mesh Cube_024...
+[2022.10.31-14.53.37:914][836]LogStaticMesh: Built static mesh [0.01s] /Game/Cube_024.Cube_024
+[2022.10.31-14.53.37:915][836]LogStaticMesh: Warning: Cube_024 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.37:915][836]LogStaticMesh: Warning: Cube_024 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.37:922][836]LogMaterial: Display: Missing cached shadermap for Screen_001 in PCD3D_SM5, Default, SM5 (DDC key hash: 700F9DEED5B942EE4321C57DA8012D36EA54E5A3), compiling. 
+[2022.10.31-14.53.37:926][836]LogMaterial: Display: Missing cached shadermap for ScreenCase in PCD3D_SM5, Default, SM5 (DDC key hash: 14E6C2F8D668B94B5F073FFF3FC81DADE2C50248), compiling. 
+[2022.10.31-14.53.37:927][836]LogFbx: Display: Triangulating static mesh Cube.014
+[2022.10.31-14.53.37:928][836]LogStaticMesh: Display: Building static mesh Cube_025...
+[2022.10.31-14.53.37:930][836]LogStaticMesh: Built static mesh [0.00s] /Game/Cube_025.Cube_025
+[2022.10.31-14.53.37:934][836]LogFbx: Display: Triangulating static mesh Cube.015
+[2022.10.31-14.53.37:935][836]LogStaticMesh: Display: Building static mesh Cube_026...
+[2022.10.31-14.53.37:955][836]LogStaticMesh: Built static mesh [0.02s] /Game/Cube_026.Cube_026
+[2022.10.31-14.53.37:959][836]LogFbx: Display: Triangulating static mesh Cube.016
+[2022.10.31-14.53.37:960][836]LogStaticMesh: Display: Building static mesh Cube_027...
+[2022.10.31-14.53.37:962][836]LogStaticMesh: Built static mesh [0.00s] /Game/Cube_027.Cube_027
+[2022.10.31-14.53.37:965][836]LogFbx: Display: Triangulating static mesh Cube.017
+[2022.10.31-14.53.37:966][836]LogStaticMesh: Display: Building static mesh Cube_028...
+[2022.10.31-14.53.37:967][836]LogStaticMesh: Built static mesh [0.00s] /Game/Cube_028.Cube_028
+[2022.10.31-14.53.37:973][836]LogMaterial: Display: Missing cached shadermap for Rust_001 in PCD3D_SM5, Default, SM5 (DDC key hash: B6F9EAC4504D7F32268B0BBE40A26C3F98D6AD33), compiling. 
+[2022.10.31-14.53.37:975][836]LogFbx: Display: Triangulating static mesh GarageDoor_03
+[2022.10.31-14.53.37:975][836]LogStaticMesh: Display: Building static mesh Cube_029...
+[2022.10.31-14.53.37:977][836]LogStaticMesh: Built static mesh [0.00s] /Game/Cube_029.Cube_029
+[2022.10.31-14.53.37:980][836]LogFbx: Display: Triangulating static mesh GarageDoor_02
+[2022.10.31-14.53.37:983][836]LogStaticMesh: Display: Building static mesh Cube_030...
+[2022.10.31-14.53.37:989][836]LogStaticMesh: Built static mesh [0.01s] /Game/Cube_030.Cube_030
+[2022.10.31-14.53.37:995][836]LogMaterial: Display: Missing cached shadermap for metal_plane_001 in PCD3D_SM5, Default, SM5 (DDC key hash: 5E6B0BE454AE06A2D555C19C43415054124BBBB2), compiling. 
+[2022.10.31-14.53.37:997][836]LogFbx: Display: Triangulating static mesh GarageDoor_01
+[2022.10.31-14.53.37:997][836]LogStaticMesh: Display: Building static mesh Plane_001...
+[2022.10.31-14.53.37:999][836]LogStaticMesh: Built static mesh [0.00s] /Game/Plane_001.Plane_001
+[2022.10.31-14.53.38:004][836]LogMaterial: Display: Missing cached shadermap for Stoolmetal_002 in PCD3D_SM5, Default, SM5 (DDC key hash: 63AD175E27A3B6AC0E1757DA09CCCE2994864D8D), compiling. 
+[2022.10.31-14.53.38:005][836]LogFbx: Display: Triangulating static mesh StoolStand
+[2022.10.31-14.53.38:015][836]LogStaticMesh: Display: Building static mesh Cylinder_013...
+[2022.10.31-14.53.38:020][836]LogStaticMesh: Built static mesh [0.01s] /Game/Cylinder_013.Cylinder_013
+[2022.10.31-14.53.38:021][836]LogStaticMesh: Warning: Cylinder_013 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2022.10.31-14.53.38:021][836]LogStaticMesh: Warning: Cylinder_013 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.38:021][836]LogStaticMesh: Warning: Cylinder_013 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.38:025][836]LogFbx: Display: Triangulating static mesh Footrest
+[2022.10.31-14.53.38:110][836]LogStaticMesh: Display: Building static mesh Mesh_025...
+[2022.10.31-14.53.38:135][836]LogStaticMesh: Built static mesh [0.02s] /Game/Mesh_025.Mesh_025
+[2022.10.31-14.53.38:139][836]LogStaticMesh: Warning: Mesh_025 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.38:139][836]LogStaticMesh: Warning: Mesh_025 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.38:150][836]LogMaterial: Display: Missing cached shadermap for Stool-Leather_001 in PCD3D_SM5, Default, SM5 (DDC key hash: 6F876F22C870BC8B3E4043C839F334B88A5A909A), compiling. 
+[2022.10.31-14.53.38:151][836]LogFbx: Display: Triangulating static mesh Stool-Seat
+[2022.10.31-14.53.38:334][836]LogStaticMesh: Display: Building static mesh Mesh_026...
+[2022.10.31-14.53.38:345][836]LogStaticMesh: Built static mesh [0.01s] /Game/Mesh_026.Mesh_026
+[2022.10.31-14.53.38:347][836]LogStaticMesh: Warning: Mesh_026 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.38:347][836]LogStaticMesh: Warning: Mesh_026 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.38:352][836]LogFbx: Display: Triangulating static mesh StoolStand.001
+[2022.10.31-14.53.38:362][836]LogStaticMesh: Display: Building static mesh Cylinder_014...
+[2022.10.31-14.53.38:424][836]LogStaticMesh: Built static mesh [0.06s] /Game/Cylinder_014.Cylinder_014
+[2022.10.31-14.53.38:426][836]LogStaticMesh: Warning: Cylinder_014 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2022.10.31-14.53.38:426][836]LogStaticMesh: Warning: Cylinder_014 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.38:426][836]LogStaticMesh: Warning: Cylinder_014 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.38:430][836]LogFbx: Display: Triangulating static mesh Footrest.001
+[2022.10.31-14.53.38:515][836]LogStaticMesh: Display: Building static mesh Mesh_027...
+[2022.10.31-14.53.38:539][836]LogStaticMesh: Built static mesh [0.02s] /Game/Mesh_027.Mesh_027
+[2022.10.31-14.53.38:544][836]LogStaticMesh: Warning: Mesh_027 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.38:544][836]LogStaticMesh: Warning: Mesh_027 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.38:552][836]LogFbx: Display: Triangulating static mesh Stool-Seat.001
+[2022.10.31-14.53.38:740][836]LogStaticMesh: Display: Building static mesh Mesh_028...
+[2022.10.31-14.53.38:760][836]LogStaticMesh: Built static mesh [0.02s] /Game/Mesh_028.Mesh_028
+[2022.10.31-14.53.38:761][836]LogStaticMesh: Warning: Mesh_028 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.38:761][836]LogStaticMesh: Warning: Mesh_028 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.38:766][836]LogFbx: Display: Triangulating static mesh StoolStand.002
+[2022.10.31-14.53.38:776][836]LogStaticMesh: Display: Building static mesh Cylinder_015...
+[2022.10.31-14.53.38:781][836]LogStaticMesh: Built static mesh [0.01s] /Game/Cylinder_015.Cylinder_015
+[2022.10.31-14.53.38:782][836]LogStaticMesh: Warning: Cylinder_015 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2022.10.31-14.53.38:782][836]LogStaticMesh: Warning: Cylinder_015 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.38:782][836]LogStaticMesh: Warning: Cylinder_015 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.38:786][836]LogFbx: Display: Triangulating static mesh Footrest.002
+[2022.10.31-14.53.38:870][836]LogStaticMesh: Display: Building static mesh Mesh_029...
+[2022.10.31-14.53.38:897][836]LogStaticMesh: Built static mesh [0.03s] /Game/Mesh_029.Mesh_029
+[2022.10.31-14.53.38:901][836]LogStaticMesh: Warning: Mesh_029 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.38:901][836]LogStaticMesh: Warning: Mesh_029 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.38:910][836]LogFbx: Display: Triangulating static mesh Stool-Seat.002
+[2022.10.31-14.53.39:094][836]LogStaticMesh: Display: Building static mesh Mesh_030...
+[2022.10.31-14.53.39:105][836]LogStaticMesh: Built static mesh [0.01s] /Game/Mesh_030.Mesh_030
+[2022.10.31-14.53.39:106][836]LogStaticMesh: Warning: Mesh_030 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.39:106][836]LogStaticMesh: Warning: Mesh_030 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.39:112][836]LogFbx: Display: Triangulating static mesh StoolStand.003
+[2022.10.31-14.53.39:121][836]LogStaticMesh: Display: Building static mesh Cylinder_016...
+[2022.10.31-14.53.39:127][836]LogStaticMesh: Built static mesh [0.01s] /Game/Cylinder_016.Cylinder_016
+[2022.10.31-14.53.39:128][836]LogStaticMesh: Warning: Cylinder_016 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2022.10.31-14.53.39:128][836]LogStaticMesh: Warning: Cylinder_016 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.39:128][836]LogStaticMesh: Warning: Cylinder_016 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.39:132][836]LogFbx: Display: Triangulating static mesh Footrest.003
+[2022.10.31-14.53.39:220][836]LogStaticMesh: Display: Building static mesh Mesh_031...
+[2022.10.31-14.53.39:248][836]LogStaticMesh: Built static mesh [0.03s] /Game/Mesh_031.Mesh_031
+[2022.10.31-14.53.39:252][836]LogStaticMesh: Warning: Mesh_031 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.39:252][836]LogStaticMesh: Warning: Mesh_031 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.39:259][836]LogFbx: Display: Triangulating static mesh Stool-Seat.003
+[2022.10.31-14.53.39:449][836]LogStaticMesh: Display: Building static mesh Mesh_032...
+[2022.10.31-14.53.39:460][836]LogStaticMesh: Built static mesh [0.01s] /Game/Mesh_032.Mesh_032
+[2022.10.31-14.53.39:462][836]LogStaticMesh: Warning: Mesh_032 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.39:462][836]LogStaticMesh: Warning: Mesh_032 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.39:467][836]LogFbx: Display: Triangulating static mesh StoolStand.004
+[2022.10.31-14.53.39:479][836]LogStaticMesh: Display: Building static mesh Cylinder_017...
+[2022.10.31-14.53.39:799][836]LogStaticMesh: Built static mesh [0.32s] /Game/Cylinder_017.Cylinder_017
+[2022.10.31-14.53.39:801][836]LogStaticMesh: Warning: Cylinder_017 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2022.10.31-14.53.39:802][836]LogStaticMesh: Warning: Cylinder_017 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.39:802][836]LogStaticMesh: Warning: Cylinder_017 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.39:806][836]LogFbx: Display: Triangulating static mesh Footrest.004
+[2022.10.31-14.53.39:890][836]LogStaticMesh: Display: Building static mesh Mesh_033...
+[2022.10.31-14.53.39:914][836]LogStaticMesh: Built static mesh [0.02s] /Game/Mesh_033.Mesh_033
+[2022.10.31-14.53.39:918][836]LogStaticMesh: Warning: Mesh_033 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.39:918][836]LogStaticMesh: Warning: Mesh_033 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.39:926][836]LogFbx: Display: Triangulating static mesh Stool-Seat.004
+[2022.10.31-14.53.40:110][836]LogStaticMesh: Display: Building static mesh Mesh_034...
+[2022.10.31-14.53.40:121][836]LogStaticMesh: Built static mesh [0.01s] /Game/Mesh_034.Mesh_034
+[2022.10.31-14.53.40:122][836]LogStaticMesh: Warning: Mesh_034 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.40:122][836]LogStaticMesh: Warning: Mesh_034 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.40:127][836]LogFbx: Display: Triangulating static mesh StoolStand.005
+[2022.10.31-14.53.40:137][836]LogStaticMesh: Display: Building static mesh Cylinder_018...
+[2022.10.31-14.53.40:143][836]LogStaticMesh: Built static mesh [0.01s] /Game/Cylinder_018.Cylinder_018
+[2022.10.31-14.53.40:144][836]LogStaticMesh: Warning: Cylinder_018 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2022.10.31-14.53.40:144][836]LogStaticMesh: Warning: Cylinder_018 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.40:144][836]LogStaticMesh: Warning: Cylinder_018 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.40:148][836]LogFbx: Display: Triangulating static mesh Footrest.005
+[2022.10.31-14.53.40:234][836]LogStaticMesh: Display: Building static mesh Mesh_035...
+[2022.10.31-14.53.40:258][836]LogStaticMesh: Built static mesh [0.02s] /Game/Mesh_035.Mesh_035
+[2022.10.31-14.53.40:262][836]LogStaticMesh: Warning: Mesh_035 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.40:262][836]LogStaticMesh: Warning: Mesh_035 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.40:270][836]LogFbx: Display: Triangulating static mesh Stool-Seat.005
+[2022.10.31-14.53.40:454][836]LogStaticMesh: Display: Building static mesh Mesh_036...
+[2022.10.31-14.53.40:464][836]LogStaticMesh: Built static mesh [0.01s] /Game/Mesh_036.Mesh_036
+[2022.10.31-14.53.40:466][836]LogStaticMesh: Warning: Mesh_036 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.40:466][836]LogStaticMesh: Warning: Mesh_036 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.40:470][836]LogFbx: Display: Triangulating static mesh StoolStand.006
+[2022.10.31-14.53.40:479][836]LogStaticMesh: Display: Building static mesh Cylinder_019...
+[2022.10.31-14.53.40:485][836]LogStaticMesh: Built static mesh [0.01s] /Game/Cylinder_019.Cylinder_019
+[2022.10.31-14.53.40:486][836]LogStaticMesh: Warning: Cylinder_019 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2022.10.31-14.53.40:486][836]LogStaticMesh: Warning: Cylinder_019 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.40:486][836]LogStaticMesh: Warning: Cylinder_019 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.40:491][836]LogFbx: Display: Triangulating static mesh Footrest.006
+[2022.10.31-14.53.40:575][836]LogStaticMesh: Display: Building static mesh Mesh_037...
+[2022.10.31-14.53.40:599][836]LogStaticMesh: Built static mesh [0.02s] /Game/Mesh_037.Mesh_037
+[2022.10.31-14.53.40:604][836]LogStaticMesh: Warning: Mesh_037 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.40:604][836]LogStaticMesh: Warning: Mesh_037 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.40:612][836]LogFbx: Display: Triangulating static mesh Stool-Seat.006
+[2022.10.31-14.53.40:804][836]LogStaticMesh: Display: Building static mesh Mesh_038...
+[2022.10.31-14.53.40:816][836]LogStaticMesh: Built static mesh [0.01s] /Game/Mesh_038.Mesh_038
+[2022.10.31-14.53.40:817][836]LogStaticMesh: Warning: Mesh_038 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.40:817][836]LogStaticMesh: Warning: Mesh_038 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.40:825][836]LogMaterial: Display: Missing cached shadermap for Keys in PCD3D_SM5, Default, SM5 (DDC key hash: 6B3D3CB7D873A4E981C0E0473B9AEBFDFEA5BBB4), compiling. 
+[2022.10.31-14.53.40:830][836]LogMaterial: Display: Missing cached shadermap for Laptop in PCD3D_SM5, Default, SM5 (DDC key hash: A96D136B7FEE401FF4FF7C9B395965B1C632DDBA), compiling. 
+[2022.10.31-14.53.40:833][836]LogMaterial: Display: Missing cached shadermap for Touchpad in PCD3D_SM5, Default, SM5 (DDC key hash: 68B2BE683AEF7B1C4AD347B799CAE0C5B454348F), compiling. 
+[2022.10.31-14.53.40:837][836]LogMaterial: Display: Missing cached shadermap for Screen in PCD3D_SM5, Default, SM5 (DDC key hash: 38DF2AD29BD4C47D4287AB867E83588FF3D4ACFB), compiling. 
+[2022.10.31-14.53.40:838][836]LogFbx: Display: Triangulating static mesh Laptop
+[2022.10.31-14.53.40:852][836]LogStaticMesh: Display: Building static mesh Cube_018...
+[2022.10.31-14.53.40:860][836]LogStaticMesh: Built static mesh [0.01s] /Game/Cube_018.Cube_018
+[2022.10.31-14.53.40:867][836]LogFbx: Display: Triangulating static mesh Laptop.001
+[2022.10.31-14.53.40:880][836]LogStaticMesh: Display: Building static mesh Cube_019...
+[2022.10.31-14.53.40:888][836]LogStaticMesh: Built static mesh [0.01s] /Game/Cube_019.Cube_019
+[2022.10.31-14.53.40:893][836]LogFbx: Display: Triangulating static mesh Laptop.002
+[2022.10.31-14.53.40:906][836]LogStaticMesh: Display: Building static mesh Cube_020...
+[2022.10.31-14.53.40:915][836]LogStaticMesh: Built static mesh [0.01s] /Game/Cube_020.Cube_020
+[2022.10.31-14.53.40:946][836]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Mesh_004) ...
+[2022.10.31-14.53.40:972][836]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Mesh_006) ...
+[2022.10.31-14.53.41:022][836]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Mesh_008) ...
+[2022.10.31-14.53.41:047][836]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Mesh_009) ...
+[2022.10.31-14.53.41:098][836]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Mesh_003) ...
+[2022.10.31-14.53.41:224][836]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Mesh_012) ...
+[2022.10.31-14.53.41:247][836]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Mesh_013) ...
+[2022.10.31-14.53.41:296][836]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Mesh_016) ...
+[2022.10.31-14.53.41:320][836]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Mesh_017) ...
+[2022.10.31-14.53.41:371][836]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Mesh_020) ...
+[2022.10.31-14.53.41:482][836]LogStaticMesh: Display: Building static mesh Cube...
+[2022.10.31-14.53.41:482][836]LogStaticMesh: Built static mesh [0.00s] /Game/Cube.Cube
+[2022.10.31-14.53.41:538][836]LogStaticMesh: Display: Building static mesh Cube_009...
+[2022.10.31-14.53.41:538][836]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Cube_009) ...
+[2022.10.31-14.53.41:555][836]LogStaticMesh: Built static mesh [0.03s] /Game/Cube_009.Cube_009
+[2022.10.31-14.53.41:573][836]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Mesh_002) ...
+[2022.10.31-14.53.41:616][836]LogStaticMesh: Display: Building static mesh Cube_029...
+[2022.10.31-14.53.41:617][836]LogStaticMesh: Built static mesh [0.00s] /Game/Cube_029.Cube_029
+[2022.10.31-14.53.41:620][836]LogStaticMesh: Display: Building static mesh Plane_001...
+[2022.10.31-14.53.41:620][836]LogStaticMesh: Built static mesh [0.00s] /Game/Plane_001.Plane_001
+[2022.10.31-14.53.41:638][836]LogStaticMesh: Display: Building static mesh Mesh_026...
+[2022.10.31-14.53.41:638][836]LogStaticMesh: Built static mesh [0.01s] /Game/Mesh_026.Mesh_026
+[2022.10.31-14.53.41:638][836]LogStaticMesh: Warning: Mesh_026 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.41:638][836]LogStaticMesh: Warning: Mesh_026 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.41:658][836]LogStaticMesh: Display: Building static mesh Mesh_028...
+[2022.10.31-14.53.41:658][836]LogStaticMesh: Built static mesh [0.01s] /Game/Mesh_028.Mesh_028
+[2022.10.31-14.53.41:658][836]LogStaticMesh: Warning: Mesh_028 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.41:658][836]LogStaticMesh: Warning: Mesh_028 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.41:678][836]LogStaticMesh: Display: Building static mesh Mesh_030...
+[2022.10.31-14.53.41:678][836]LogStaticMesh: Built static mesh [0.01s] /Game/Mesh_030.Mesh_030
+[2022.10.31-14.53.41:678][836]LogStaticMesh: Warning: Mesh_030 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.41:678][836]LogStaticMesh: Warning: Mesh_030 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.41:697][836]LogStaticMesh: Display: Building static mesh Mesh_032...
+[2022.10.31-14.53.41:697][836]LogStaticMesh: Built static mesh [0.01s] /Game/Mesh_032.Mesh_032
+[2022.10.31-14.53.41:697][836]LogStaticMesh: Warning: Mesh_032 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.41:697][836]LogStaticMesh: Warning: Mesh_032 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.41:717][836]LogStaticMesh: Display: Building static mesh Mesh_034...
+[2022.10.31-14.53.41:717][836]LogStaticMesh: Built static mesh [0.01s] /Game/Mesh_034.Mesh_034
+[2022.10.31-14.53.41:717][836]LogStaticMesh: Warning: Mesh_034 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.41:717][836]LogStaticMesh: Warning: Mesh_034 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.41:736][836]LogStaticMesh: Display: Building static mesh Mesh_036...
+[2022.10.31-14.53.41:736][836]LogStaticMesh: Built static mesh [0.01s] /Game/Mesh_036.Mesh_036
+[2022.10.31-14.53.41:736][836]LogStaticMesh: Warning: Mesh_036 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.41:736][836]LogStaticMesh: Warning: Mesh_036 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.41:756][836]LogStaticMesh: Display: Building static mesh Mesh_038...
+[2022.10.31-14.53.41:756][836]LogStaticMesh: Built static mesh [0.01s] /Game/Mesh_038.Mesh_038
+[2022.10.31-14.53.41:756][836]LogStaticMesh: Warning: Mesh_038 has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.41:756][836]LogStaticMesh: Warning: Mesh_038 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.10.31-14.53.41:767][836]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.Actor
+[2022.10.31-14.53.41:767][836]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.Actor
+[2022.10.31-14.53.41:785][836]LogActorFactory: Actor Factory spawned Class /Script/Engine.Actor as actor: Actor /Game/AnimationScene.AnimationScene:PersistentLevel.Actor_0
+[2022.10.31-14.53.41:785][836]LogActorFactory: Actor Factory spawned Class /Script/Engine.Actor as actor: Actor /Game/AnimationScene.AnimationScene:PersistentLevel.Actor_0
+[2022.10.31-14.53.41:873][836]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2022.10.31-14.53.41:906][836]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FbxScene_garage.FbxScene_garage
+[2022.10.31-14.53.41:908][836]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Found invalid character in a material name. Original name: metal plane_001 New name: metal_plane_001 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_004 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_004 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_006 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_006 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_007 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_007 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_005 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_005 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_008 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_008 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_009 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_009 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_010 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_010 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_011 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_011 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_003 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_003 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_003 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_012 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_012 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_013 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_013 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_014 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_014 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_015 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_015 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_016 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_016 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_017 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_017 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_018 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_018 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_019 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_019 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_020 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_020 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_020 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_001 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_001 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_002 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_002 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_021 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_021 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Cube_023 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Cube_023 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Cube_024 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Cube_024 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Cylinder_013 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Cylinder_013 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Cylinder_013 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_025 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_025 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_026 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Mesh_026 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:593][836]FBXImport: Warning: Cylinder_014 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Cylinder_014 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Cylinder_014 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Mesh_027 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Mesh_027 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Mesh_028 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Mesh_028 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Cylinder_015 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Cylinder_015 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Cylinder_015 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Mesh_029 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Mesh_029 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Mesh_030 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Mesh_030 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Cylinder_016 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Cylinder_016 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Cylinder_016 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Mesh_031 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Mesh_031 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Mesh_032 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Mesh_032 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Cylinder_017 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Cylinder_017 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Cylinder_017 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Mesh_033 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Mesh_033 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Mesh_034 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Mesh_034 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Cylinder_018 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Cylinder_018 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Cylinder_018 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Mesh_035 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Mesh_035 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Mesh_036 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Mesh_036 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Cylinder_019 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Cylinder_019 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Cylinder_019 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Mesh_037 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Mesh_037 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Mesh_038 has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:594][836]FBXImport: Warning: Mesh_038 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.10.31-14.53.43:754][836]LogShaderCompilers: Display: ================================================
+[2022.10.31-14.53.43:754][836]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.10.31-14.53.43:754][836]LogShaderCompilers: Display: Total job queries 144, among them cache hits 0 (0.00%)
+[2022.10.31-14.53.43:754][836]LogShaderCompilers: Display: Tracking 12 distinct input hashes that result in 4 distinct outputs (33.33%)
+[2022.10.31-14.53.43:754][836]LogShaderCompilers: Display: RAM used: 0.01 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2022.10.31-14.53.43:754][836]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.10.31-14.53.43:754][836]LogShaderCompilers: Display: Shaders Compiled: 72
+[2022.10.31-14.53.43:754][836]LogShaderCompilers: Display: Jobs assigned 20, completed 12 (60.00%)
+[2022.10.31-14.53.43:754][836]LogShaderCompilers: Display: Average time worker was idle: 102.35 s
+[2022.10.31-14.53.43:754][836]LogShaderCompilers: Display: Time job spent in pending queue: average 0.58 s, longest 1.48 s
+[2022.10.31-14.53.43:754][836]LogShaderCompilers: Display: Job execution time: average 1.22 s, max 1.45 s
+[2022.10.31-14.53.43:754][836]LogShaderCompilers: Display: Job life time (pending + execution): average 1.25 s, max 1.49
+[2022.10.31-14.53.43:754][836]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.55 s
+[2022.10.31-14.53.43:754][836]LogShaderCompilers: Display: Jobs were issued in 20 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.10.31-14.53.43:754][836]LogShaderCompilers: Display: Average processing rate: 4.70 jobs/sec
+[2022.10.31-14.53.43:754][836]LogShaderCompilers: Display: Effective parallelization: 4.37 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.10.31-14.53.43:754][836]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.10.31-14.53.43:754][836]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled    4 times, average 1.13 sec, max 1.14 sec, min 1.13 sec)
+[2022.10.31-14.53.43:754][836]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    4 times, average 1.07 sec, max 1.08 sec, min 1.06 sec)
+[2022.10.31-14.53.43:754][836]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.75 sec, max 0.75 sec, min 0.75 sec)
+[2022.10.31-14.53.43:754][836]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.72 sec, max 0.72 sec, min 0.72 sec)
+[2022.10.31-14.53.43:754][836]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.63 sec, max 0.63 sec, min 0.63 sec)
+[2022.10.31-14.53.43:754][836]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.10.31-14.53.43:754][836]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 40.60% of total time (compiled    4 times, average 1.13 sec, max 1.14 sec, min 1.13 sec)
+[2022.10.31-14.53.43:754][836]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 38.31% of total time (compiled    4 times, average 1.07 sec, max 1.08 sec, min 1.06 sec)
+[2022.10.31-14.53.43:754][836]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 6.68% of total time (compiled    1 times, average 0.75 sec, max 0.75 sec, min 0.75 sec)
+[2022.10.31-14.53.43:754][836]LogShaderCompilers: Display:                                                 FLumenCardVS - 6.46% of total time (compiled    1 times, average 0.72 sec, max 0.72 sec, min 0.72 sec)
+[2022.10.31-14.53.43:754][836]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 5.68% of total time (compiled    1 times, average 0.63 sec, max 0.63 sec, min 0.63 sec)
+[2022.10.31-14.53.43:754][836]LogShaderCompilers: Display: ================================================
+[2022.10.31-14.53.43:843][836]LogViewport: Scene viewport resized to 951x546, mode Windowed.
+[2022.10.31-14.53.57:328][165]LogSlate: Window 'FbxScene_garage' being destroyed
+[2022.10.31-14.53.57:361][165]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2022.10.31-14.53.57:361][165]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.31-14.53.59:192][246]LogSlate: Window 'Content Browser' being destroyed
+[2022.10.31-14.54.05:223][598]LogSlate: Window 'Message Log' being destroyed
+[2022.10.31-14.54.05:233][598]LogSlate: Window 'Message Log' being destroyed
+[2022.10.31-14.54.37:300][251]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2022.10.31-14.54.37:376][251]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2022.10.31-14.54.37:388][251]LogSavePackage: Moving output files for package: /Game/AnimationScene
+[2022.10.31-14.54.37:388][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/AnimationScene3EC22C26490A2442B9D97B9B9F573B95.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/AnimationScene.umap'
+[2022.10.31-14.54.37:393][251]LogFileHelpers: No new changes to save!
+[2022.10.31-14.54.37:393][251]LogFileHelpers: Saving map 'AnimationScene' took 0.032
+[2022.10.31-14.54.37:393][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/garage" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/garage.uasset" SILENT=true
+[2022.10.31-14.54.37:395][251]LogSavePackage: Moving output files for package: /Game/garage
+[2022.10.31-14.54.37:395][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/garage3587EE344DB3677790DB828D24F9D31E.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/garage.uasset'
+[2022.10.31-14.54.37:446][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cube_002" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_002.uasset" SILENT=true
+[2022.10.31-14.54.37:454][251]LogSavePackage: Moving output files for package: /Game/Cube_002
+[2022.10.31-14.54.37:454][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cube_002C5C967EB47908C64A9E8D991ACFD74A1.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_002.uasset'
+[2022.10.31-14.54.39:358][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Concrete" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Concrete.uasset" SILENT=true
+[2022.10.31-14.54.39:360][251]LogSavePackage: Moving output files for package: /Game/Concrete
+[2022.10.31-14.54.39:360][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Concrete6BEA5A4F41BEF09FB42297A7C343660B.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Concrete.uasset'
+[2022.10.31-14.54.41:100][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InnerWall" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/InnerWall.uasset" SILENT=true
+[2022.10.31-14.54.41:101][251]LogSavePackage: Moving output files for package: /Game/InnerWall
+[2022.10.31-14.54.41:101][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/InnerWall520A2C1849715D4F1405AF972EBA2AB8.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/InnerWall.uasset'
+[2022.10.31-14.54.41:108][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cube_003" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_003.uasset" SILENT=true
+[2022.10.31-14.54.41:111][251]LogSavePackage: Moving output files for package: /Game/Cube_003
+[2022.10.31-14.54.41:111][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cube_003202B6FA042A6FAFB10C491B48BC5F9CC.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_003.uasset'
+[2022.10.31-14.54.41:117][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Plane" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Plane.uasset" SILENT=true
+[2022.10.31-14.54.41:120][251]LogSavePackage: Moving output files for package: /Game/Plane
+[2022.10.31-14.54.41:120][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/PlaneFA2A249F4AD19A4CC9955EBA4229F2D1.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Plane.uasset'
+[2022.10.31-14.54.42:740][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Floor" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Floor.uasset" SILENT=true
+[2022.10.31-14.54.42:742][251]LogSavePackage: Moving output files for package: /Game/Floor
+[2022.10.31-14.54.42:742][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/FloorA0E3DA29479C026B9A1CA690B3A26CF9.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Floor.uasset'
+[2022.10.31-14.54.42:748][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cube_004" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_004.uasset" SILENT=true
+[2022.10.31-14.54.42:750][251]LogSavePackage: Moving output files for package: /Game/Cube_004
+[2022.10.31-14.54.42:750][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cube_004E6BC2E9444BF83C2B35C4882EF911FCA.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_004.uasset'
+[2022.10.31-14.54.42:757][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cube_005" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_005.uasset" SILENT=true
+[2022.10.31-14.54.42:759][251]LogSavePackage: Moving output files for package: /Game/Cube_005
+[2022.10.31-14.54.42:759][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cube_005518C19014BA6BF6DE598E6BCE2657B14.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_005.uasset'
+[2022.10.31-14.54.42:766][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cube_006" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_006.uasset" SILENT=true
+[2022.10.31-14.54.42:768][251]LogSavePackage: Moving output files for package: /Game/Cube_006
+[2022.10.31-14.54.42:768][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cube_006A24376074459DF47CF0D95886CFEDB32.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_006.uasset'
+[2022.10.31-14.54.42:775][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cube_001" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_001.uasset" SILENT=true
+[2022.10.31-14.54.42:778][251]LogSavePackage: Moving output files for package: /Game/Cube_001
+[2022.10.31-14.54.42:778][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cube_0017444C1134BC3655C3567CA8B53AC818C.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_001.uasset'
+[2022.10.31-14.54.42:786][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_004" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_004.uasset" SILENT=true
+[2022.10.31-14.54.42:834][251]LogSavePackage: Moving output files for package: /Game/Mesh_004
+[2022.10.31-14.54.42:834][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Mesh_004947F2B564013A3008232478E01AB5F69.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_004.uasset'
+[2022.10.31-14.54.44:661][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TyreSurface_001" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/TyreSurface_001.uasset" SILENT=true
+[2022.10.31-14.54.44:662][251]LogSavePackage: Moving output files for package: /Game/TyreSurface_001
+[2022.10.31-14.54.44:662][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/TyreSurface_00146AAE70B4C6CC2A5655871B519BD8986.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/TyreSurface_001.uasset'
+[2022.10.31-14.54.44:669][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_006" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_006.uasset" SILENT=true
+[2022.10.31-14.54.44:708][251]LogSavePackage: Moving output files for package: /Game/Mesh_006
+[2022.10.31-14.54.44:708][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Mesh_0067577562A402EB60C9DCB81B24BB3DD3D.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_006.uasset'
+[2022.10.31-14.54.44:768][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_007" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_007.uasset" SILENT=true
+[2022.10.31-14.54.44:785][251]LogSavePackage: Moving output files for package: /Game/Mesh_007
+[2022.10.31-14.54.44:785][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Mesh_007DC6DD0A8490B4B0EE40D66A312E0CAFD.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_007.uasset'
+[2022.10.31-14.54.46:514][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InsideWheel_001" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/InsideWheel_001.uasset" SILENT=true
+[2022.10.31-14.54.46:515][251]LogSavePackage: Moving output files for package: /Game/InsideWheel_001
+[2022.10.31-14.54.46:516][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/InsideWheel_0018178AD724C92D972667EDE95A66FC4FC.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/InsideWheel_001.uasset'
+[2022.10.31-14.54.48:169][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WheelMetal_001" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/WheelMetal_001.uasset" SILENT=true
+[2022.10.31-14.54.48:170][251]LogSavePackage: Moving output files for package: /Game/WheelMetal_001
+[2022.10.31-14.54.48:170][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/WheelMetal_001AF4E40A34349725F721E5CBE72A03EE2.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/WheelMetal_001.uasset'
+[2022.10.31-14.54.48:177][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_005" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_005.uasset" SILENT=true
+[2022.10.31-14.54.48:194][251]LogSavePackage: Moving output files for package: /Game/Mesh_005
+[2022.10.31-14.54.48:194][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Mesh_00540E321734184F1E0CEAAA28A12EFC8C9.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_005.uasset'
+[2022.10.31-14.54.48:201][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_008" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_008.uasset" SILENT=true
+[2022.10.31-14.54.48:241][251]LogSavePackage: Moving output files for package: /Game/Mesh_008
+[2022.10.31-14.54.48:241][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Mesh_0089343221946C8E0A8A4D957979A48DA03.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_008.uasset'
+[2022.10.31-14.54.48:249][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_009" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_009.uasset" SILENT=true
+[2022.10.31-14.54.48:290][251]LogSavePackage: Moving output files for package: /Game/Mesh_009
+[2022.10.31-14.54.48:290][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Mesh_0094DBA9BF340A7645F6B0555B26C8D3676.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_009.uasset'
+[2022.10.31-14.54.48:297][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_010" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_010.uasset" SILENT=true
+[2022.10.31-14.54.48:314][251]LogSavePackage: Moving output files for package: /Game/Mesh_010
+[2022.10.31-14.54.48:314][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Mesh_0100AAA01CF48FA93AB7BF30D9BAAD70ABC.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_010.uasset'
+[2022.10.31-14.54.48:322][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_011" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_011.uasset" SILENT=true
+[2022.10.31-14.54.48:339][251]LogSavePackage: Moving output files for package: /Game/Mesh_011
+[2022.10.31-14.54.48:339][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Mesh_0117582AA114981ADA11B5F36819E000E19.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_011.uasset'
+[2022.10.31-14.54.48:346][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_003" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_003.uasset" SILENT=true
+[2022.10.31-14.54.48:475][251]LogSavePackage: Moving output files for package: /Game/Mesh_003
+[2022.10.31-14.54.48:475][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Mesh_00387F94B9A4E48FABD5BF90BAB21E1978C.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_003.uasset'
+[2022.10.31-14.54.50:253][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLivery" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/MainLivery.uasset" SILENT=true
+[2022.10.31-14.54.50:254][251]LogSavePackage: Moving output files for package: /Game/MainLivery
+[2022.10.31-14.54.50:254][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/MainLivery1EF84BD844CFC1474E68629030959307.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/MainLivery.uasset'
+[2022.10.31-14.54.50:261][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_012" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_012.uasset" SILENT=true
+[2022.10.31-14.54.50:300][251]LogSavePackage: Moving output files for package: /Game/Mesh_012
+[2022.10.31-14.54.50:300][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Mesh_0125F519CC04ADEE4B5594FDC9CC64C4544.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_012.uasset'
+[2022.10.31-14.54.50:307][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_013" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_013.uasset" SILENT=true
+[2022.10.31-14.54.50:347][251]LogSavePackage: Moving output files for package: /Game/Mesh_013
+[2022.10.31-14.54.50:347][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Mesh_013A8FEC9404896BEFC9704FF97E7CFFB0C.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_013.uasset'
+[2022.10.31-14.54.50:354][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_014" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_014.uasset" SILENT=true
+[2022.10.31-14.54.50:371][251]LogSavePackage: Moving output files for package: /Game/Mesh_014
+[2022.10.31-14.54.50:371][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Mesh_014DDC1ED794180CA3763C718AE2DFE0761.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_014.uasset'
+[2022.10.31-14.54.50:379][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_015" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_015.uasset" SILENT=true
+[2022.10.31-14.54.50:396][251]LogSavePackage: Moving output files for package: /Game/Mesh_015
+[2022.10.31-14.54.50:396][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Mesh_01539A9FFFC4288517445E2A4BCF57B6B1E.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_015.uasset'
+[2022.10.31-14.54.50:403][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_016" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_016.uasset" SILENT=true
+[2022.10.31-14.54.50:443][251]LogSavePackage: Moving output files for package: /Game/Mesh_016
+[2022.10.31-14.54.50:443][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Mesh_0165E75841C40631BE7A1516089A600F2BF.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_016.uasset'
+[2022.10.31-14.54.50:450][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_017" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_017.uasset" SILENT=true
+[2022.10.31-14.54.50:490][251]LogSavePackage: Moving output files for package: /Game/Mesh_017
+[2022.10.31-14.54.50:490][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Mesh_01766CBDA0D43F16CDCA6CA3C813BF7E560.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_017.uasset'
+[2022.10.31-14.54.50:498][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_018" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_018.uasset" SILENT=true
+[2022.10.31-14.54.50:515][251]LogSavePackage: Moving output files for package: /Game/Mesh_018
+[2022.10.31-14.54.50:515][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Mesh_0189D91C56847A19C22866240820AD90B2E.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_018.uasset'
+[2022.10.31-14.54.50:522][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_019" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_019.uasset" SILENT=true
+[2022.10.31-14.54.50:538][251]LogSavePackage: Moving output files for package: /Game/Mesh_019
+[2022.10.31-14.54.50:538][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Mesh_0195868185F4D58D2E50F3691BF85639B4F.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_019.uasset'
+[2022.10.31-14.54.50:546][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_020" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_020.uasset" SILENT=true
+[2022.10.31-14.54.50:673][251]LogSavePackage: Moving output files for package: /Game/Mesh_020
+[2022.10.31-14.54.50:673][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Mesh_020F1F65EE447A565F549653DB6AA926BA3.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_020.uasset'
+[2022.10.31-14.54.50:680][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cube" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube.uasset" SILENT=true
+[2022.10.31-14.54.50:682][251]LogSavePackage: Moving output files for package: /Game/Cube
+[2022.10.31-14.54.50:682][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cube05B9D61246A355ACDB1FDFB384F51C2D.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube.uasset'
+[2022.10.31-14.54.52:552][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OutsideMetalSheen" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/OutsideMetalSheen.uasset" SILENT=true
+[2022.10.31-14.54.52:553][251]LogSavePackage: Moving output files for package: /Game/OutsideMetalSheen
+[2022.10.31-14.54.52:553][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/OutsideMetalSheen19F13C4044303F4BFA94979F22780E57.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/OutsideMetalSheen.uasset'
+[2022.10.31-14.54.54:195][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LightEmissive" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/LightEmissive.uasset" SILENT=true
+[2022.10.31-14.54.54:196][251]LogSavePackage: Moving output files for package: /Game/LightEmissive
+[2022.10.31-14.54.54:196][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/LightEmissiveA1853F164633B9F3F732B3A36DAD9679.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/LightEmissive.uasset'
+[2022.10.31-14.54.54:203][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cube_007" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_007.uasset" SILENT=true
+[2022.10.31-14.54.54:205][251]LogSavePackage: Moving output files for package: /Game/Cube_007
+[2022.10.31-14.54.54:205][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cube_007AC9A90D24DEC39FDCE1236A24EADEF36.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_007.uasset'
+[2022.10.31-14.54.55:835][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MetalBracket" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/MetalBracket.uasset" SILENT=true
+[2022.10.31-14.54.55:837][251]LogSavePackage: Moving output files for package: /Game/MetalBracket
+[2022.10.31-14.54.55:837][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/MetalBracketC4618D8D4E9EE9E5AC3BFCA66CCABEFB.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/MetalBracket.uasset'
+[2022.10.31-14.54.55:843][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cube_008" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_008.uasset" SILENT=true
+[2022.10.31-14.54.55:845][251]LogSavePackage: Moving output files for package: /Game/Cube_008
+[2022.10.31-14.54.55:845][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cube_008BCA3BF0E44A9E51AB542D9AE1C26ECC7.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_008.uasset'
+[2022.10.31-14.54.55:852][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cylinder" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cylinder.uasset" SILENT=true
+[2022.10.31-14.54.55:854][251]LogSavePackage: Moving output files for package: /Game/Cylinder
+[2022.10.31-14.54.55:854][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/CylinderD04198404E1D8FDD62DB9585263337C4.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cylinder.uasset'
+[2022.10.31-14.54.55:860][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cylinder_001" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cylinder_001.uasset" SILENT=true
+[2022.10.31-14.54.55:863][251]LogSavePackage: Moving output files for package: /Game/Cylinder_001
+[2022.10.31-14.54.55:863][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cylinder_001FB8EB224485278C42AF9C3A488F0808D.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cylinder_001.uasset'
+[2022.10.31-14.54.55:869][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cylinder_002" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cylinder_002.uasset" SILENT=true
+[2022.10.31-14.54.55:871][251]LogSavePackage: Moving output files for package: /Game/Cylinder_002
+[2022.10.31-14.54.55:871][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cylinder_002197C9D9F4248553945839FB230583773.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cylinder_002.uasset'
+[2022.10.31-14.54.57:488][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HangingRope" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/HangingRope.uasset" SILENT=true
+[2022.10.31-14.54.57:489][251]LogSavePackage: Moving output files for package: /Game/HangingRope
+[2022.10.31-14.54.57:489][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/HangingRopeBA2580E14DE05877B016468C5E5C0FC4.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/HangingRope.uasset'
+[2022.10.31-14.54.57:496][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cylinder_003" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cylinder_003.uasset" SILENT=true
+[2022.10.31-14.54.57:498][251]LogSavePackage: Moving output files for package: /Game/Cylinder_003
+[2022.10.31-14.54.57:498][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cylinder_0037519CF5443B4A7A62AA850B436E58CC7.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cylinder_003.uasset'
+[2022.10.31-14.54.57:505][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh.uasset" SILENT=true
+[2022.10.31-14.54.57:530][251]LogSavePackage: Moving output files for package: /Game/Mesh
+[2022.10.31-14.54.57:530][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/MeshF2E9F8C0416DD72BA39BFBA95E1ECBCB.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh.uasset'
+[2022.10.31-14.54.57:537][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_001" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_001.uasset" SILENT=true
+[2022.10.31-14.54.57:563][251]LogSavePackage: Moving output files for package: /Game/Mesh_001
+[2022.10.31-14.54.57:563][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Mesh_001D6CE9ECC431BE6F24E540A99899D6B5F.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_001.uasset'
+[2022.10.31-14.54.57:570][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cube_009" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_009.uasset" SILENT=true
+[2022.10.31-14.54.57:572][251]LogSavePackage: Moving output files for package: /Game/Cube_009
+[2022.10.31-14.54.57:572][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cube_009467F2AF7458ED5EFBFF4D09277535032.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_009.uasset'
+[2022.10.31-14.54.59:246][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OutsideMetalSheen_001" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/OutsideMetalSheen_001.uasset" SILENT=true
+[2022.10.31-14.54.59:247][251]LogSavePackage: Moving output files for package: /Game/OutsideMetalSheen_001
+[2022.10.31-14.54.59:247][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/OutsideMetalSheen_0017AEEB2AE411D372FC3BB808F7F24BA16.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/OutsideMetalSheen_001.uasset'
+[2022.10.31-14.55.00:888][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LightEmissive_001" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/LightEmissive_001.uasset" SILENT=true
+[2022.10.31-14.55.00:889][251]LogSavePackage: Moving output files for package: /Game/LightEmissive_001
+[2022.10.31-14.55.00:889][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/LightEmissive_001958D856C4855FE69D07A13B1D2DFF8F4.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/LightEmissive_001.uasset'
+[2022.10.31-14.55.00:896][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_002" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_002.uasset" SILENT=true
+[2022.10.31-14.55.00:922][251]LogSavePackage: Moving output files for package: /Game/Mesh_002
+[2022.10.31-14.55.00:922][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Mesh_0027EB966EF453162EFE67B1F8DC3DD8DBC.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_002.uasset'
+[2022.10.31-14.55.02:636][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MetalBracket_001" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/MetalBracket_001.uasset" SILENT=true
+[2022.10.31-14.55.02:637][251]LogSavePackage: Moving output files for package: /Game/MetalBracket_001
+[2022.10.31-14.55.02:638][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/MetalBracket_00182DF35984734E5F16033F7AF6605AD33.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/MetalBracket_001.uasset'
+[2022.10.31-14.55.02:644][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_021" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_021.uasset" SILENT=true
+[2022.10.31-14.55.02:671][251]LogSavePackage: Moving output files for package: /Game/Mesh_021
+[2022.10.31-14.55.02:671][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Mesh_0213FA73F1648CCECDDAA0A039ED8C09841.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_021.uasset'
+[2022.10.31-14.55.02:678][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cylinder_004" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cylinder_004.uasset" SILENT=true
+[2022.10.31-14.55.02:680][251]LogSavePackage: Moving output files for package: /Game/Cylinder_004
+[2022.10.31-14.55.02:681][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cylinder_0049D2E2700499377F43EE23DB44CD62342.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cylinder_004.uasset'
+[2022.10.31-14.55.02:687][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cylinder_005" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cylinder_005.uasset" SILENT=true
+[2022.10.31-14.55.02:689][251]LogSavePackage: Moving output files for package: /Game/Cylinder_005
+[2022.10.31-14.55.02:689][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cylinder_00536567C4848DD5D926D7A5A9BCE45883D.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cylinder_005.uasset'
+[2022.10.31-14.55.02:696][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cylinder_006" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cylinder_006.uasset" SILENT=true
+[2022.10.31-14.55.02:698][251]LogSavePackage: Moving output files for package: /Game/Cylinder_006
+[2022.10.31-14.55.02:698][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cylinder_00640866F364FDC3D5FE6FC36BF6CB89AFC.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cylinder_006.uasset'
+[2022.10.31-14.55.04:383][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HangingRope_001" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/HangingRope_001.uasset" SILENT=true
+[2022.10.31-14.55.04:385][251]LogSavePackage: Moving output files for package: /Game/HangingRope_001
+[2022.10.31-14.55.04:385][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/HangingRope_0018E422637462A6ADE6602F9A0CF439EA6.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/HangingRope_001.uasset'
+[2022.10.31-14.55.04:392][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cylinder_007" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cylinder_007.uasset" SILENT=true
+[2022.10.31-14.55.04:394][251]LogSavePackage: Moving output files for package: /Game/Cylinder_007
+[2022.10.31-14.55.04:394][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cylinder_0075565249D4BCA1E16C6ABEFAA3054BB25.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cylinder_007.uasset'
+[2022.10.31-14.55.04:401][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cube_010" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_010.uasset" SILENT=true
+[2022.10.31-14.55.04:403][251]LogSavePackage: Moving output files for package: /Game/Cube_010
+[2022.10.31-14.55.04:403][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cube_010063953ED467D5651775ECDA238B1C4BE.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_010.uasset'
+[2022.10.31-14.55.04:410][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cube_011" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_011.uasset" SILENT=true
+[2022.10.31-14.55.04:412][251]LogSavePackage: Moving output files for package: /Game/Cube_011
+[2022.10.31-14.55.04:412][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cube_011C1EBF5B34B4EAD29FD6BC38F2C6EB432.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_011.uasset'
+[2022.10.31-14.55.04:418][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cube_012" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_012.uasset" SILENT=true
+[2022.10.31-14.55.04:420][251]LogSavePackage: Moving output files for package: /Game/Cube_012
+[2022.10.31-14.55.04:420][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cube_0126629AEAD436C38168D9A1D9D0D1B674F.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_012.uasset'
+[2022.10.31-14.55.04:427][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cube_014" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_014.uasset" SILENT=true
+[2022.10.31-14.55.04:429][251]LogSavePackage: Moving output files for package: /Game/Cube_014
+[2022.10.31-14.55.04:429][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cube_0141337420C4911B2C942420C8236655E33.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_014.uasset'
+[2022.10.31-14.55.04:436][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cylinder_008" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cylinder_008.uasset" SILENT=true
+[2022.10.31-14.55.04:438][251]LogSavePackage: Moving output files for package: /Game/Cylinder_008
+[2022.10.31-14.55.04:438][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cylinder_008698BB25A4D4C6A4C183900A8BDDF251A.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cylinder_008.uasset'
+[2022.10.31-14.55.06:123][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScreenBlack" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/ScreenBlack.uasset" SILENT=true
+[2022.10.31-14.55.06:124][251]LogSavePackage: Moving output files for package: /Game/ScreenBlack
+[2022.10.31-14.55.06:124][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/ScreenBlackF6E179FE4D0411D2C92154A0E3FFC181.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/ScreenBlack.uasset'
+[2022.10.31-14.55.07:777][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScreenBase" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/ScreenBase.uasset" SILENT=true
+[2022.10.31-14.55.07:778][251]LogSavePackage: Moving output files for package: /Game/ScreenBase
+[2022.10.31-14.55.07:779][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/ScreenBaseC7CB0E80469AF22F58A370B816C97506.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/ScreenBase.uasset'
+[2022.10.31-14.55.07:785][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cylinder_009" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cylinder_009.uasset" SILENT=true
+[2022.10.31-14.55.07:788][251]LogSavePackage: Moving output files for package: /Game/Cylinder_009
+[2022.10.31-14.55.07:788][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cylinder_009E4FEE20A4BE1406E2A75FE83345DB066.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cylinder_009.uasset'
+[2022.10.31-14.55.07:794][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cube_013" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_013.uasset" SILENT=true
+[2022.10.31-14.55.07:796][251]LogSavePackage: Moving output files for package: /Game/Cube_013
+[2022.10.31-14.55.07:796][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cube_01382D4D395479F117C5BF747829117C98B.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_013.uasset'
+[2022.10.31-14.55.09:524][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TableTop" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/TableTop.uasset" SILENT=true
+[2022.10.31-14.55.09:525][251]LogSavePackage: Moving output files for package: /Game/TableTop
+[2022.10.31-14.55.09:525][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/TableTop93B4F24F4D356584A931F5AE56266B97.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/TableTop.uasset'
+[2022.10.31-14.55.09:532][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cube_015" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_015.uasset" SILENT=true
+[2022.10.31-14.55.09:535][251]LogSavePackage: Moving output files for package: /Game/Cube_015
+[2022.10.31-14.55.09:535][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cube_015BF8D66E44FBF4F3713C4F099FB8755E7.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_015.uasset'
+[2022.10.31-14.55.09:542][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cube_016" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_016.uasset" SILENT=true
+[2022.10.31-14.55.09:544][251]LogSavePackage: Moving output files for package: /Game/Cube_016
+[2022.10.31-14.55.09:544][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cube_016C1090CC6478422B254D8F497A7A9CF16.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_016.uasset'
+[2022.10.31-14.55.09:551][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cube_017" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_017.uasset" SILENT=true
+[2022.10.31-14.55.09:553][251]LogSavePackage: Moving output files for package: /Game/Cube_017
+[2022.10.31-14.55.09:553][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cube_0178F61D7A64B2C759669C29FB665E18D79.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_017.uasset'
+[2022.10.31-14.55.09:559][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cylinder_010" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cylinder_010.uasset" SILENT=true
+[2022.10.31-14.55.09:562][251]LogSavePackage: Moving output files for package: /Game/Cylinder_010
+[2022.10.31-14.55.09:562][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cylinder_010027B9D6E49A6118EF5A545932E64D824.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cylinder_010.uasset'
+[2022.10.31-14.55.09:569][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cube_021" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_021.uasset" SILENT=true
+[2022.10.31-14.55.09:571][251]LogSavePackage: Moving output files for package: /Game/Cube_021
+[2022.10.31-14.55.09:571][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cube_021B6D89FE64E462CF0A3281096AECF9339.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_021.uasset'
+[2022.10.31-14.55.11:267][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Material.uasset" SILENT=true
+[2022.10.31-14.55.11:268][251]LogSavePackage: Moving output files for package: /Game/Material
+[2022.10.31-14.55.11:268][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Material5E1646994BBEF4D8C45E33BA0A5A7AB0.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Material.uasset'
+[2022.10.31-14.55.12:942][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Toolstation" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Toolstation.uasset" SILENT=true
+[2022.10.31-14.55.12:943][251]LogSavePackage: Moving output files for package: /Game/Toolstation
+[2022.10.31-14.55.12:944][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Toolstation884418F94FF30ACAFB4C16B6233C8E62.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Toolstation.uasset'
+[2022.10.31-14.55.12:950][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cylinder_011" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cylinder_011.uasset" SILENT=true
+[2022.10.31-14.55.12:953][251]LogSavePackage: Moving output files for package: /Game/Cylinder_011
+[2022.10.31-14.55.12:953][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cylinder_0118CCE0DDC4478DCFE7844A6A11AC110B9.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cylinder_011.uasset'
+[2022.10.31-14.55.14:594][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wheels" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Wheels.uasset" SILENT=true
+[2022.10.31-14.55.14:595][251]LogSavePackage: Moving output files for package: /Game/Wheels
+[2022.10.31-14.55.14:595][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Wheels12CD017A406AA1EDD9035282450721DD.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Wheels.uasset'
+[2022.10.31-14.55.14:602][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cube_022" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_022.uasset" SILENT=true
+[2022.10.31-14.55.14:604][251]LogSavePackage: Moving output files for package: /Game/Cube_022
+[2022.10.31-14.55.14:604][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cube_02266F0B6D54E1DCF76929629AB6848539E.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_022.uasset'
+[2022.10.31-14.55.14:611][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cylinder_012" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cylinder_012.uasset" SILENT=true
+[2022.10.31-14.55.14:613][251]LogSavePackage: Moving output files for package: /Game/Cylinder_012
+[2022.10.31-14.55.14:613][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cylinder_012B0F9D3F94A063C307687DB9D07EA0D69.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cylinder_012.uasset'
+[2022.10.31-14.55.14:620][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cube_023" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_023.uasset" SILENT=true
+[2022.10.31-14.55.14:623][251]LogSavePackage: Moving output files for package: /Game/Cube_023
+[2022.10.31-14.55.14:623][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cube_023DF1E7755424863249F36D0ACEDF42285.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_023.uasset'
+[2022.10.31-14.55.16:230][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material_001" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Material_001.uasset" SILENT=true
+[2022.10.31-14.55.16:231][251]LogSavePackage: Moving output files for package: /Game/Material_001
+[2022.10.31-14.55.16:231][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Material_0016E8B993F4415D4006C448BB942042DA5.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Material_001.uasset'
+[2022.10.31-14.55.17:884][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material_002" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Material_002.uasset" SILENT=true
+[2022.10.31-14.55.17:885][251]LogSavePackage: Moving output files for package: /Game/Material_002
+[2022.10.31-14.55.17:885][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Material_002F499EE334A41C8F0F17B5CA46B0B9809.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Material_002.uasset'
+[2022.10.31-14.55.17:892][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cube_024" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_024.uasset" SILENT=true
+[2022.10.31-14.55.17:895][251]LogSavePackage: Moving output files for package: /Game/Cube_024
+[2022.10.31-14.55.17:895][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cube_0243ABA070C4B2762BF7D3DD5838F207D1B.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_024.uasset'
+[2022.10.31-14.55.19:636][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material_003" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Material_003.uasset" SILENT=true
+[2022.10.31-14.55.19:637][251]LogSavePackage: Moving output files for package: /Game/Material_003
+[2022.10.31-14.55.19:637][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Material_003D548E0D041288CD70EB9A99110F9C570.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Material_003.uasset'
+[2022.10.31-14.55.21:242][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material_004" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Material_004.uasset" SILENT=true
+[2022.10.31-14.55.21:244][251]LogSavePackage: Moving output files for package: /Game/Material_004
+[2022.10.31-14.55.21:244][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Material_0041FD71100438AD330E07516A30BF4C250.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Material_004.uasset'
+[2022.10.31-14.55.21:251][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cube_025" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_025.uasset" SILENT=true
+[2022.10.31-14.55.21:253][251]LogSavePackage: Moving output files for package: /Game/Cube_025
+[2022.10.31-14.55.21:253][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cube_0256C85377F4B88719253B5E09006BA4A14.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_025.uasset'
+[2022.10.31-14.55.22:885][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Screen_001" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Screen_001.uasset" SILENT=true
+[2022.10.31-14.55.22:886][251]LogSavePackage: Moving output files for package: /Game/Screen_001
+[2022.10.31-14.55.22:887][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Screen_001FD1B35E44602D4C6F90521A6C2024D6F.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Screen_001.uasset'
+[2022.10.31-14.55.24:527][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScreenCase" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/ScreenCase.uasset" SILENT=true
+[2022.10.31-14.55.24:528][251]LogSavePackage: Moving output files for package: /Game/ScreenCase
+[2022.10.31-14.55.24:528][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/ScreenCaseEACEC01045D4344B63B350A800372B94.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/ScreenCase.uasset'
+[2022.10.31-14.55.24:535][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cube_026" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_026.uasset" SILENT=true
+[2022.10.31-14.55.24:537][251]LogSavePackage: Moving output files for package: /Game/Cube_026
+[2022.10.31-14.55.24:538][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cube_026FFB1BBAD48BA6F72E35DBD9F41C90597.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_026.uasset'
+[2022.10.31-14.55.24:544][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cube_027" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_027.uasset" SILENT=true
+[2022.10.31-14.55.24:547][251]LogSavePackage: Moving output files for package: /Game/Cube_027
+[2022.10.31-14.55.24:547][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cube_027B135670C4C907A5896C0BBB6125F2E1D.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_027.uasset'
+[2022.10.31-14.55.24:554][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cube_028" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_028.uasset" SILENT=true
+[2022.10.31-14.55.24:556][251]LogSavePackage: Moving output files for package: /Game/Cube_028
+[2022.10.31-14.55.24:556][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cube_028F879265C475C5EFE4C1FBD933EB19CA0.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_028.uasset'
+[2022.10.31-14.55.24:562][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cube_029" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_029.uasset" SILENT=true
+[2022.10.31-14.55.24:564][251]LogSavePackage: Moving output files for package: /Game/Cube_029
+[2022.10.31-14.55.24:564][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cube_029EF4BA7124F270EC66DAF06958D810E09.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_029.uasset'
+[2022.10.31-14.55.26:183][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Rust_001" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Rust_001.uasset" SILENT=true
+[2022.10.31-14.55.26:184][251]LogSavePackage: Moving output files for package: /Game/Rust_001
+[2022.10.31-14.55.26:185][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Rust_001FD76BC95465679295857A5BC59280B8F.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Rust_001.uasset'
+[2022.10.31-14.55.26:192][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cube_030" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_030.uasset" SILENT=true
+[2022.10.31-14.55.26:194][251]LogSavePackage: Moving output files for package: /Game/Cube_030
+[2022.10.31-14.55.26:194][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cube_0308DC39D3E4F3E214907A0478B6370DE36.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_030.uasset'
+[2022.10.31-14.55.26:200][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Plane_001" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Plane_001.uasset" SILENT=true
+[2022.10.31-14.55.26:203][251]LogSavePackage: Moving output files for package: /Game/Plane_001
+[2022.10.31-14.55.26:203][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Plane_0019B22598B457F0BA2AE9DCEB982AAF04E.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Plane_001.uasset'
+[2022.10.31-14.55.27:932][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/metal_plane_001" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/metal_plane_001.uasset" SILENT=true
+[2022.10.31-14.55.27:934][251]LogSavePackage: Moving output files for package: /Game/metal_plane_001
+[2022.10.31-14.55.27:934][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/metal_plane_001CC664A00424F19627234B5A55C93865A.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/metal_plane_001.uasset'
+[2022.10.31-14.55.27:941][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cylinder_013" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cylinder_013.uasset" SILENT=true
+[2022.10.31-14.55.27:944][251]LogSavePackage: Moving output files for package: /Game/Cylinder_013
+[2022.10.31-14.55.27:944][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cylinder_013655E81E442C811872BEDBDAF2CBE7004.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cylinder_013.uasset'
+[2022.10.31-14.55.29:584][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Stoolmetal_002" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Stoolmetal_002.uasset" SILENT=true
+[2022.10.31-14.55.29:585][251]LogSavePackage: Moving output files for package: /Game/Stoolmetal_002
+[2022.10.31-14.55.29:586][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Stoolmetal_002954AE7E74FFC7095AA986DA68BCFC912.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Stoolmetal_002.uasset'
+[2022.10.31-14.55.29:592][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_025" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_025.uasset" SILENT=true
+[2022.10.31-14.55.29:601][251]LogSavePackage: Moving output files for package: /Game/Mesh_025
+[2022.10.31-14.55.29:601][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Mesh_0253BDDD0C843161108919E789033CBCA94.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_025.uasset'
+[2022.10.31-14.55.29:608][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_026" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_026.uasset" SILENT=true
+[2022.10.31-14.55.29:613][251]LogSavePackage: Moving output files for package: /Game/Mesh_026
+[2022.10.31-14.55.29:614][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Mesh_026C0A2E87C4A3E0096A7B8BC9A01D1A33F.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_026.uasset'
+[2022.10.31-14.55.31:233][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Stool-Leather_001" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Stool-Leather_001.uasset" SILENT=true
+[2022.10.31-14.55.31:234][251]LogSavePackage: Moving output files for package: /Game/Stool-Leather_001
+[2022.10.31-14.55.31:234][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Stool-Leather_00110F8A7C9427A029F84DD53804241460D.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Stool-Leather_001.uasset'
+[2022.10.31-14.55.31:241][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cylinder_014" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cylinder_014.uasset" SILENT=true
+[2022.10.31-14.55.31:244][251]LogSavePackage: Moving output files for package: /Game/Cylinder_014
+[2022.10.31-14.55.31:244][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cylinder_014939B00DA4846731A326DB5B809BA52A8.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cylinder_014.uasset'
+[2022.10.31-14.55.31:251][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_027" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_027.uasset" SILENT=true
+[2022.10.31-14.55.31:259][251]LogSavePackage: Moving output files for package: /Game/Mesh_027
+[2022.10.31-14.55.31:259][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Mesh_0276420CD8B498E8B96511CABB611877845.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_027.uasset'
+[2022.10.31-14.55.31:266][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_028" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_028.uasset" SILENT=true
+[2022.10.31-14.55.31:271][251]LogSavePackage: Moving output files for package: /Game/Mesh_028
+[2022.10.31-14.55.31:272][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Mesh_02819905D47467F4EF0B686ED98697A7250.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_028.uasset'
+[2022.10.31-14.55.31:278][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cylinder_015" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cylinder_015.uasset" SILENT=true
+[2022.10.31-14.55.31:281][251]LogSavePackage: Moving output files for package: /Game/Cylinder_015
+[2022.10.31-14.55.31:281][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cylinder_01570BC240443E6B8A6A8B8BFA50A56EF38.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cylinder_015.uasset'
+[2022.10.31-14.55.31:287][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_029" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_029.uasset" SILENT=true
+[2022.10.31-14.55.31:296][251]LogSavePackage: Moving output files for package: /Game/Mesh_029
+[2022.10.31-14.55.31:296][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Mesh_029E74D55CE42D31973CBA3DB8317046434.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_029.uasset'
+[2022.10.31-14.55.31:303][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_030" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_030.uasset" SILENT=true
+[2022.10.31-14.55.31:308][251]LogSavePackage: Moving output files for package: /Game/Mesh_030
+[2022.10.31-14.55.31:308][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Mesh_030789E915F4EAE2E479C1B6E9C2F4D51D9.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_030.uasset'
+[2022.10.31-14.55.31:315][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cylinder_016" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cylinder_016.uasset" SILENT=true
+[2022.10.31-14.55.31:318][251]LogSavePackage: Moving output files for package: /Game/Cylinder_016
+[2022.10.31-14.55.31:318][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cylinder_0163C6B75F04D1723AFD9BE7D96C3FAFB29.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cylinder_016.uasset'
+[2022.10.31-14.55.31:325][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_031" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_031.uasset" SILENT=true
+[2022.10.31-14.55.31:333][251]LogSavePackage: Moving output files for package: /Game/Mesh_031
+[2022.10.31-14.55.31:333][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Mesh_031B6F85F054BCF24AFD0B427B8DAABE6FE.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_031.uasset'
+[2022.10.31-14.55.31:340][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_032" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_032.uasset" SILENT=true
+[2022.10.31-14.55.31:345][251]LogSavePackage: Moving output files for package: /Game/Mesh_032
+[2022.10.31-14.55.31:346][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Mesh_03239744E7A4BFD78F0E196A5B8D284547C.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_032.uasset'
+[2022.10.31-14.55.31:352][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cylinder_017" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cylinder_017.uasset" SILENT=true
+[2022.10.31-14.55.31:355][251]LogSavePackage: Moving output files for package: /Game/Cylinder_017
+[2022.10.31-14.55.31:355][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cylinder_017D2BDAB2243267A3C64FCF0A1D061E09D.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cylinder_017.uasset'
+[2022.10.31-14.55.31:362][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_033" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_033.uasset" SILENT=true
+[2022.10.31-14.55.31:370][251]LogSavePackage: Moving output files for package: /Game/Mesh_033
+[2022.10.31-14.55.31:370][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Mesh_0332EDEFE324607CD83A56D74ACC1882D1B.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_033.uasset'
+[2022.10.31-14.55.31:377][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_034" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_034.uasset" SILENT=true
+[2022.10.31-14.55.31:382][251]LogSavePackage: Moving output files for package: /Game/Mesh_034
+[2022.10.31-14.55.31:382][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Mesh_0348A840AC84AB0A60CDB832F8DC5763EAF.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_034.uasset'
+[2022.10.31-14.55.31:389][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cylinder_018" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cylinder_018.uasset" SILENT=true
+[2022.10.31-14.55.31:392][251]LogSavePackage: Moving output files for package: /Game/Cylinder_018
+[2022.10.31-14.55.31:392][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cylinder_018FFA33FE44150182A9913D5831A77EBEA.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cylinder_018.uasset'
+[2022.10.31-14.55.31:399][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_035" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_035.uasset" SILENT=true
+[2022.10.31-14.55.31:407][251]LogSavePackage: Moving output files for package: /Game/Mesh_035
+[2022.10.31-14.55.31:407][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Mesh_035535AD842483A51F98ADE2C8F787E4AEC.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_035.uasset'
+[2022.10.31-14.55.31:414][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_036" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_036.uasset" SILENT=true
+[2022.10.31-14.55.31:420][251]LogSavePackage: Moving output files for package: /Game/Mesh_036
+[2022.10.31-14.55.31:420][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Mesh_03632763FEA40427573A63631910AC4344C.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_036.uasset'
+[2022.10.31-14.55.31:427][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cylinder_019" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cylinder_019.uasset" SILENT=true
+[2022.10.31-14.55.31:430][251]LogSavePackage: Moving output files for package: /Game/Cylinder_019
+[2022.10.31-14.55.31:430][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cylinder_019416E8542467A0FCA4BBDA885E4865E9E.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cylinder_019.uasset'
+[2022.10.31-14.55.31:437][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_037" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_037.uasset" SILENT=true
+[2022.10.31-14.55.31:446][251]LogSavePackage: Moving output files for package: /Game/Mesh_037
+[2022.10.31-14.55.31:446][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Mesh_037577B034F457C14B2109DAA8E335A0A5D.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_037.uasset'
+[2022.10.31-14.55.31:454][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_038" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_038.uasset" SILENT=true
+[2022.10.31-14.55.31:460][251]LogSavePackage: Moving output files for package: /Game/Mesh_038
+[2022.10.31-14.55.31:460][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Mesh_038990022C64A6626124C37C4AF8174A2A4.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Mesh_038.uasset'
+[2022.10.31-14.55.31:467][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cube_018" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_018.uasset" SILENT=true
+[2022.10.31-14.55.31:471][251]LogSavePackage: Moving output files for package: /Game/Cube_018
+[2022.10.31-14.55.31:471][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cube_018C79B28EA40BEC4C34E93B69CB2E43179.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_018.uasset'
+[2022.10.31-14.55.33:112][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Keys" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Keys.uasset" SILENT=true
+[2022.10.31-14.55.33:113][251]LogSavePackage: Moving output files for package: /Game/Keys
+[2022.10.31-14.55.33:113][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/KeysF5F6CFB14A0F3F5FE29E97AAA6C46130.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Keys.uasset'
+[2022.10.31-14.55.34:763][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Laptop" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Laptop.uasset" SILENT=true
+[2022.10.31-14.55.34:764][251]LogSavePackage: Moving output files for package: /Game/Laptop
+[2022.10.31-14.55.34:764][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Laptop74107424421901E339C5B2A6C20DACFE.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Laptop.uasset'
+[2022.10.31-14.55.36:407][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Touchpad" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Touchpad.uasset" SILENT=true
+[2022.10.31-14.55.36:408][251]LogSavePackage: Moving output files for package: /Game/Touchpad
+[2022.10.31-14.55.36:408][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Touchpad911E1FAE4457C2CAF0F907ADCF496959.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Touchpad.uasset'
+[2022.10.31-14.55.38:049][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Screen" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Screen.uasset" SILENT=true
+[2022.10.31-14.55.38:050][251]LogSavePackage: Moving output files for package: /Game/Screen
+[2022.10.31-14.55.38:050][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/ScreenCB57059749CDB2D07E4E2A81B3ED19EC.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Screen.uasset'
+[2022.10.31-14.55.38:057][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cube_019" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_019.uasset" SILENT=true
+[2022.10.31-14.55.38:060][251]LogSavePackage: Moving output files for package: /Game/Cube_019
+[2022.10.31-14.55.38:060][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cube_019D6EAFA8F4D61C9272097BB8B7B780C5F.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_019.uasset'
+[2022.10.31-14.55.38:067][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cube_020" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_020.uasset" SILENT=true
+[2022.10.31-14.55.38:070][251]LogSavePackage: Moving output files for package: /Game/Cube_020
+[2022.10.31-14.55.38:070][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/Cube_02050B3B7A047293BA0B4828EA535D3714A.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/Cube_020.uasset'
+[2022.10.31-14.55.38:127][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FbxScene_garage" FILE="../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/FbxScene_garage.uasset" SILENT=true
+[2022.10.31-14.55.38:149][251]LogSavePackage: Moving output files for package: /Game/FbxScene_garage
+[2022.10.31-14.55.38:149][251]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/FbxScene_garage1B3D9E05426BE492943ACE9B140FA9E6.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/FbxScene_garage.uasset'
+[2022.10.31-14.55.38:181][251]AssetCheck: New page: Asset Save: multiple assets
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating Blueprint /Game/FbxScene_garage.FbxScene_garage
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Cylinder_015.Cylinder_015
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Mesh_028.Mesh_028
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Mesh_027.Mesh_027
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Cylinder_014.Cylinder_014
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating Material /Game/Stool-Leather_001.Stool-Leather_001
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Mesh_026.Mesh_026
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Mesh_007.Mesh_007
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Mesh_025.Mesh_025
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating Material /Game/Stoolmetal_002.Stoolmetal_002
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Cylinder_013.Cylinder_013
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating Material /Game/metal_plane_001.metal_plane_001
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Plane_001.Plane_001
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Cube_030.Cube_030
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating Material /Game/Rust_001.Rust_001
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Cube_029.Cube_029
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Mesh_006.Mesh_006
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Cube_028.Cube_028
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Cube_020.Cube_020
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Cube_019.Cube_019
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Cube_027.Cube_027
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Cube_026.Cube_026
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating Material /Game/ScreenCase.ScreenCase
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating Material /Game/Screen_001.Screen_001
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Cube_025.Cube_025
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating Material /Game/Material_004.Material_004
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating Material /Game/Material_003.Material_003
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Cube_024.Cube_024
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating Material /Game/Material_002.Material_002
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating Material /Game/TyreSurface_001.TyreSurface_001
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating Material /Game/Material_001.Material_001
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Mesh_004.Mesh_004
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Cube_023.Cube_023
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Cylinder_012.Cylinder_012
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Cube_022.Cube_022
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating Material /Game/Wheels.Wheels
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Cube_001.Cube_001
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Cylinder_011.Cylinder_011
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating Material /Game/Toolstation.Toolstation
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating Material /Game/Material.Material
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Cube_021.Cube_021
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating Material /Game/Screen.Screen
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating Material /Game/Touchpad.Touchpad
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating Material /Game/Laptop.Laptop
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating Material /Game/Keys.Keys
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Cube_018.Cube_018
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Cylinder_010.Cylinder_010
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Cube_017.Cube_017
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Cube_016.Cube_016
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Cube_015.Cube_015
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Cube_006.Cube_006
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating Material /Game/TableTop.TableTop
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Cube_013.Cube_013
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Cylinder_009.Cylinder_009
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Cube_005.Cube_005
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating Material /Game/ScreenBase.ScreenBase
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating Material /Game/ScreenBlack.ScreenBlack
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Mesh_038.Mesh_038
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Mesh_037.Mesh_037
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Cylinder_019.Cylinder_019
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Mesh_036.Mesh_036
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Cylinder_008.Cylinder_008
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Cube_014.Cube_014
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Mesh_035.Mesh_035
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Cylinder_018.Cylinder_018
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Mesh_034.Mesh_034
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Cube_012.Cube_012
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Cube_011.Cube_011
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Mesh_033.Mesh_033
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Cube_010.Cube_010
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Cylinder_017.Cylinder_017
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Mesh_032.Mesh_032
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Mesh_031.Mesh_031
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Cylinder_016.Cylinder_016
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Mesh_030.Mesh_030
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Mesh_029.Mesh_029
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Cylinder_007.Cylinder_007
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating Material /Game/HangingRope_001.HangingRope_001
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Cylinder_006.Cylinder_006
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Cylinder_005.Cylinder_005
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Cylinder_004.Cylinder_004
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating StaticMesh /Game/Mesh_021.Mesh_021
+[2022.10.31-14.55.38:182][251]LogContentValidation: Display: Validating Material /Game/MetalBracket_001.MetalBracket_001
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating StaticMesh /Game/Mesh_002.Mesh_002
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating StaticMesh /Game/Cube_004.Cube_004
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating Material /Game/LightEmissive_001.LightEmissive_001
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating Material /Game/OutsideMetalSheen_001.OutsideMetalSheen_001
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating StaticMesh /Game/Cube_009.Cube_009
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating StaticMesh /Game/Mesh_001.Mesh_001
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating Material /Game/Floor.Floor
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating StaticMesh /Game/Mesh.Mesh
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating StaticMesh /Game/Cylinder_003.Cylinder_003
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating Material /Game/HangingRope.HangingRope
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating StaticMesh /Game/Plane.Plane
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating StaticMesh /Game/Cylinder_002.Cylinder_002
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating StaticMesh /Game/Cylinder_001.Cylinder_001
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating StaticMesh /Game/Cylinder.Cylinder
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating StaticMesh /Game/Cube_008.Cube_008
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating Material /Game/MetalBracket.MetalBracket
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating StaticMesh /Game/Cube_007.Cube_007
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating Material /Game/LightEmissive.LightEmissive
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating Material /Game/OutsideMetalSheen.OutsideMetalSheen
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating StaticMesh /Game/Cube.Cube
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating StaticMesh /Game/Mesh_020.Mesh_020
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating StaticMesh /Game/Mesh_019.Mesh_019
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating StaticMesh /Game/Mesh_018.Mesh_018
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating StaticMesh /Game/Mesh_017.Mesh_017
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating StaticMesh /Game/Mesh_016.Mesh_016
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating StaticMesh /Game/Mesh_015.Mesh_015
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating StaticMesh /Game/Mesh_014.Mesh_014
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating StaticMesh /Game/Cube_003.Cube_003
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating StaticMesh /Game/Mesh_013.Mesh_013
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating StaticMesh /Game/Mesh_012.Mesh_012
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating Material /Game/MainLivery.MainLivery
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating StaticMesh /Game/Mesh_003.Mesh_003
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating Material /Game/InnerWall.InnerWall
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating StaticMesh /Game/Mesh_011.Mesh_011
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating Material /Game/Concrete.Concrete
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating StaticMesh /Game/Mesh_010.Mesh_010
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating StaticMesh /Game/Mesh_009.Mesh_009
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating StaticMesh /Game/Cube_002.Cube_002
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating StaticMesh /Game/Mesh_008.Mesh_008
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating FbxSceneImportData /Game/garage.garage
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating StaticMesh /Game/Mesh_005.Mesh_005
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating Material /Game/WheelMetal_001.WheelMetal_001
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating Material /Game/InsideWheel_001.InsideWheel_001
+[2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating World /Game/AnimationScene.AnimationScene
