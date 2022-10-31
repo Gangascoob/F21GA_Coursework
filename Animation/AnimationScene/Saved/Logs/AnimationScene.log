@@ -1937,3 +1937,46 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating Material /Game/WheelMetal_001.WheelMetal_001
 [2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating Material /Game/InsideWheel_001.InsideWheel_001
 [2022.10.31-14.55.38:183][251]LogContentValidation: Display: Validating World /Game/AnimationScene.AnimationScene
+[2022.10.31-15.14.09:999][815]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FbxScene_garage.FbxScene_garage
+[2022.10.31-15.14.09:999][815]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.31-15.14.10:295][815]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.10.31-15.14.15:021][172]LogViewport: Scene viewport resized to 951x546, mode Windowed.
+[2022.10.31-15.14.21:923][608]LogSlate: Window 'FbxScene_garage' being destroyed
+[2022.10.31-15.14.21:929][608]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2022.10.31-15.14.21:929][608]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.31-15.14.26:672][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2022.10.31-15.14.26:684][ 64]LogSavePackage: Moving output files for package: /Game/AnimationScene
+[2022.10.31-15.14.26:684][ 64]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/AnimationScene51313B3B4FD4ADEDD6E64E98577690BA.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/AnimationScene.umap'
+[2022.10.31-15.14.26:687][ 64]LogFileHelpers: No new changes to save!
+[2022.10.31-15.14.26:697][ 64]AssetCheck: New page: Asset Save: AnimationScene
+[2022.10.31-15.14.26:697][ 64]LogContentValidation: Display: Validating World /Game/AnimationScene.AnimationScene
+[2022.10.31-15.14.35:838][801]Cmd: DELETE
+[2022.10.31-15.14.35:838][801]Cmd: ACTOR DELETE
+[2022.10.31-15.14.35:840][801]LogEditorActor: Deleted Actor: DirectionalLight
+[2022.10.31-15.14.35:856][801]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2022.10.31-15.14.35:857][801]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2022.10.31-15.14.45:088][859]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.RectLight
+[2022.10.31-15.14.45:088][859]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.RectLight
+[2022.10.31-15.15.21:066][ 53]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PostProcessVolume
+[2022.10.31-15.15.21:066][ 53]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PostProcessVolume
+[2022.10.31-15.15.21:067][ 53]LogActorFactory: Actor Factory spawned Class /Script/Engine.PostProcessVolume as actor: PostProcessVolume /Game/AnimationScene.AnimationScene:PersistentLevel.PostProcessVolume_0
+[2022.10.31-15.15.21:070][ 53]LogActorFactory: Actor Factory spawned Class /Script/Engine.PostProcessVolume as actor: PostProcessVolume /Game/AnimationScene.AnimationScene:PersistentLevel.PostProcessVolume_0
+[2022.10.31-15.15.48:724][528]Cmd: EDIT COPY
+[2022.10.31-15.15.49:075][560]Cmd: EDIT PASTE
+[2022.10.31-15.16.04:400][945]Cmd: TRANSACTION UNDO
+[2022.10.31-15.16.04:400][945]LogEditorTransaction: Undo Rotate Elements
+[2022.10.31-15.16.04:947][956]Cmd: TRANSACTION UNDO
+[2022.10.31-15.16.04:947][956]LogEditorTransaction: Undo Paste
+[2022.10.31-15.16.09:456][365]Cmd: EDIT COPY
+[2022.10.31-15.16.09:750][392]Cmd: EDIT PASTE
+[2022.10.31-15.16.55:045][ 25]Cmd: EDIT COPY
+[2022.10.31-15.16.55:331][ 49]Cmd: EDIT PASTE
+[2022.10.31-15.17.11:290][147]Cmd: EDIT PASTE
+[2022.10.31-15.17.12:521][225]Cmd: TRANSACTION UNDO
+[2022.10.31-15.17.12:521][225]LogEditorTransaction: Undo Paste
+[2022.10.31-15.17.21:234][857]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2022.10.31-15.17.21:250][857]LogSavePackage: Moving output files for package: /Game/AnimationScene
+[2022.10.31-15.17.21:250][857]LogSavePackage: Moving '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/AnimationScene435114E44C80D8FEC1E49CA371A9CC6A.tmp' to '../../../../../../Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Content/AnimationScene.umap'
+[2022.10.31-15.17.21:254][857]LogFileHelpers: No new changes to save!
+[2022.10.31-15.17.21:307][857]AssetCheck: New page: Asset Save: AnimationScene
+[2022.10.31-15.17.21:307][857]LogContentValidation: Display: Validating World /Game/AnimationScene.AnimationScene
