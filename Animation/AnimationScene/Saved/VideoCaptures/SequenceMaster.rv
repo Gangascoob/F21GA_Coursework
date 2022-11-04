@@ -28,7 +28,7 @@ sourceGroup000000_source : RVFileSource (1)
 	cut
 	{
 		int in = 0
-		int out = 84
+		int out = 101
 	}
 
 	group
@@ -75,7 +75,7 @@ sourceGroup000002 : RVSourceGroup (1)
 {
 	ui
 	{
-		string name = "TestLevelSequence.avi"
+		string name = "TestLevelSequence_4.avi"
 	}
 }
 
@@ -84,7 +84,7 @@ sourceGroup000002_source : RVFileSource (1)
 	cut
 	{
 		int in = 0
-		int out = 105
+		int out = 150
 	}
 
 	group
@@ -94,7 +94,7 @@ sourceGroup000002_source : RVFileSource (1)
 
 	media
 	{
-		string movie = "TestLevelSequence.avi"
+		string movie = "TestLevelSequence_4.avi"
 		string shot = ""
 	}
 }
