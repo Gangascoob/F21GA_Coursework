@@ -34,7 +34,7 @@
 								<fielddominance>lower</fielddominance>
 								<file id="file-1">
 									<name>TestLevelSequence_2.avi</name>
-									<pathurl>file://localhost/C%3a/Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/VideoCaptures/TestLevelSequence_2.avi</pathurl>
+									<pathurl>file://localhost/C%3a/Users/gregs/OneDrive/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/VideoCaptures/TestLevelSequence_2.avi</pathurl>
 									<rate>
 										<timebase>30</timebase>
 										<ntsc>FALSE</ntsc>
@@ -55,8 +55,8 @@
 													<timebase>30</timebase>
 													<ntsc>FALSE</ntsc>
 												</rate>
-												<width>1920</width>
-												<height>1080</height>
+												<width>2560</width>
+												<height>1440</height>
 												<anamorphic>FALSE</anamorphic>
 												<pixelaspectratio>square</pixelaspectratio>
 												<fielddominance>lower</fielddominance>
@@ -116,7 +116,7 @@
 								<fielddominance>lower</fielddominance>
 								<file id="file-2">
 									<name>TestLevelSequence_4.avi</name>
-									<pathurl>file://localhost/C%3a/Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/VideoCaptures/TestLevelSequence_4.avi</pathurl>
+									<pathurl>file://localhost/C%3a/Users/gregs/OneDrive/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/VideoCaptures/TestLevelSequence_4.avi</pathurl>
 									<rate>
 										<timebase>30</timebase>
 										<ntsc>FALSE</ntsc>
@@ -137,8 +137,8 @@
 													<timebase>30</timebase>
 													<ntsc>FALSE</ntsc>
 												</rate>
-												<width>1920</width>
-												<height>1080</height>
+												<width>2560</width>
+												<height>1440</height>
 												<anamorphic>FALSE</anamorphic>
 												<pixelaspectratio>square</pixelaspectratio>
 												<fielddominance>lower</fielddominance>
@@ -198,7 +198,7 @@
 								<fielddominance>lower</fielddominance>
 								<file id="file-3">
 									<name>TestLevelSequence_3.avi</name>
-									<pathurl>file://localhost/C%3a/Users/gregs/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/VideoCaptures/TestLevelSequence_3.avi</pathurl>
+									<pathurl>file://localhost/C%3a/Users/gregs/OneDrive/Documents/GitHub/F21GA_Coursework/Animation/AnimationScene/Saved/VideoCaptures/TestLevelSequence_3.avi</pathurl>
 									<rate>
 										<timebase>30</timebase>
 										<ntsc>FALSE</ntsc>
@@ -219,8 +219,8 @@
 													<timebase>30</timebase>
 													<ntsc>FALSE</ntsc>
 												</rate>
-												<width>1920</width>
-												<height>1080</height>
+												<width>2560</width>
+												<height>1440</height>
 												<anamorphic>FALSE</anamorphic>
 												<pixelaspectratio>square</pixelaspectratio>
 												<fielddominance>lower</fielddominance>
@@ -264,8 +264,8 @@
 									<timebase>30</timebase>
 									<ntsc>FALSE</ntsc>
 								</rate>
-								<width>1920</width>
-								<height>1080</height>
+								<width>2560</width>
+								<height>1440</height>
 								<anamorphic>FALSE</anamorphic>
 								<pixelaspectratio>square</pixelaspectratio>
 								<fielddominance>lower</fielddominance>
