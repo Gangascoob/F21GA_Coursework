@@ -84,7 +84,7 @@ sourceGroup000002_source : RVFileSource (1)
 	cut
 	{
 		int in = 0
-		int out = 150
+		int out = 121
 	}
 
 	group
@@ -95,6 +95,62 @@ sourceGroup000002_source : RVFileSource (1)
 	media
 	{
 		string movie = "TestLevelSequence_4.avi"
+		string shot = ""
+	}
+}
+
+sourceGroup000003 : RVSourceGroup (1)
+{
+	ui
+	{
+		string name = "TestLevelSequence_5.avi"
+	}
+}
+
+sourceGroup000003_source : RVFileSource (1)
+{
+	cut
+	{
+		int in = 0
+		int out = 149
+	}
+
+	group
+	{
+		int noMovieAudio = 1
+	}
+
+	media
+	{
+		string movie = "TestLevelSequence_5.avi"
+		string shot = ""
+	}
+}
+
+sourceGroup000004 : RVSourceGroup (1)
+{
+	ui
+	{
+		string name = "TestLevelSequence_6.avi"
+	}
+}
+
+sourceGroup000004_source : RVFileSource (1)
+{
+	cut
+	{
+		int in = 0
+		int out = 235
+	}
+
+	group
+	{
+		int noMovieAudio = 1
+	}
+
+	media
+	{
+		string movie = "TestLevelSequence_6.avi"
 		string shot = ""
 	}
 }
