@@ -31,3 +31,5 @@ The materials for the wheels were also fairly simple - A dark grey material with
 
 ### Car Body
 As all great models do, the car body started as a cube. It was scaled lengthwise and loop cuts made to split the model into sections. Creating the nose was as simple as bevelling the end and moving that section down slightly. The front wing was made by performing a number of loop cuts on the underside of the nose and extruding out a small rectangle downwards. From this, the wing itself could be extruded sideways as well as the wing's endplates.
+
+The back section was then 
