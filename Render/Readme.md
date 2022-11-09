@@ -37,6 +37,7 @@ The back section was then widened and a long strip of the middle extruded upward
 
 ## Stools
 
-The inspiration for the garage stools was just the bog-standard breakfast stool (such as [this](https://www.simplybarstools.co.uk/semplice-bar-stool-black/)).
+The inspiration and slight reference (not exact) for the garage stools was just the bog-standard breakfast stool (such as [this](https://www.simplybarstools.co.uk/semplice-bar-stool-black/)).
+The main leg of the stool 
 
 
