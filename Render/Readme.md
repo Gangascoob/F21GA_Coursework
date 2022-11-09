@@ -15,7 +15,7 @@ The scene consists of 9 different models - described below.
 
 The garage is probably the simplest model, and was the first to be created. It consists of various cube meshes - scaled, rotated, and joined so that they create a semi-enclosed room with 1 side open. Another cube mesh was used to create a central pillar so that the garage has two exits - one for each car.
 
-Originally I had planned to go with a concrete-style material for the inner walls using the noise node with high detail to create a rough-looking surface. Unfortunately it just looked kind of ugly, so I decided to stick to using it only for the central pillar (to showcase that it's a permanent part of the architecture). In order to emulate a modern F1 garage it seemed more appropriate for the walls and ceiling to have a glossy-looking clean material. This was done simply through adjusting the base colour, reducing metallic to zero and lowering the roughness so that light was reflected well but without being over-reflective.
+Originally I had planned to go with a concrete-style material for the inner walls using the noise node with high detail to create a rough-looking surface. Unfortunately it just looked kind of ugly, so I decided to stick to using it only for the central pillar to showcase that it's a permanent part of the architecture. In order to emulate a modern F1 garage it seemed more appropriate for the walls and ceiling to have a glossy-looking clean material. This was done simply through adjusting the base colour, reducing metallic to zero and lowering the roughness so that light was reflected well but without being over-reflective.
 
 ## The Cars
 
@@ -30,3 +30,4 @@ The spokes for the internal wheel structure involved loop cuts in the outside of
 The materials for the wheels were also fairly simple - A dark grey material with fairly high roughness and zero metallic for the tyres, and then a light grey, high metallic, low roughness material for the wheel structure to create a silvery metal look.
 
 ### Car Body
+As all great models do, the car body started as a cube. It was scaled lengthwise and loop cuts made to split the model into sections. Creating the nose was as simple as bevelling the end and moving that section down slightly - followed by a downwards 
