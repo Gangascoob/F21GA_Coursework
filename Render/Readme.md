@@ -38,6 +38,7 @@ The back section was then widened and a long strip of the middle extruded upward
 ## Stools
 
 The inspiration and slight reference (not exact) for the garage stools was just the bog-standard breakfast stool (such as [this](https://www.simplybarstools.co.uk/semplice-bar-stool-black/)).
-The main leg of the stool 
+The main leg of the stool consisted of just an elongated cylinder, with the base support being modelled in a similar fashion to the wheels - an empty cylinder with the solidify modifier. The two were connected in the same kind of method used to model the spokes of the wheel too, with a loop cut near the base of the leg and extruding a section out to the outer ring. To create the footrest, the base ring was duplicated and the duplicate moved up to a reasonable height, and connected with the same kind of spokes. However, to add a bit more individuality to it the footrest was shortened to be only around 45 degrees rather than the full 360. This was done by performing loop cuts at each end of the desired area and then simply deleting the other edges and vertices. With a subdivision surface modifier, this actually came out better than I'd expected/hoped. 
+Modelling the stool seat was a matter of creating a cylinder and then adding a loop cut near the top, selecting that top face and then scaling it down so a gradient was formed to give a rounder edge. A slightly 
 
 
