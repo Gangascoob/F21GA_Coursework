@@ -159,3 +159,9 @@ Rectangular 300W lights were placed just underneath the ceiling lights so that t
 # Render
 
 The scene was rendered in Cycles, using GPU Compute and with the light bounces set to the default of 12. The render settings were left as default really as the outcome was in line with my vision.
+
+# Reflection
+
+There are a number of things that should/could have been done both differently and additionally. Firstly, as mentioned before, mirroring would have been greatly useful particularly in the car and steering wheel models. As well as this the materials could certainly have been a lot more complex - although given the issues importing materials into Unreal it's perhaps best that they were kept simple. 
+I also recognise that I didn't really version properly - although having a github history of most changes that were made, keeping proper versioning would have allowed for much easier display of progress through the models. A reason for this was getting carried away with some of the modelling and not really paying attention to how many changes I'd made - something I'll have to be stricter with myself about in the future.
+Finally, I'd have liked to add more decal-style things to the car to liven it up a bit - although that's more of an issue to do with time management than process.
