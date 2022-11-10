@@ -33,3 +33,6 @@ The final animation in the scene is a driver's POV from the seat of the car, fac
 
 Additionally, the fade actor was also used to provide softer cuts between animations. However, the fades between sequences were all black whereas the final fade out is white - this was achieved by adding a second 'section' of the Fade actor which allows you to set a different colour for that specific section of Fade.
 
+## Reflection
+
+On reflection, I wish I had attempted some more complex animations - perhaps movement of the car or more exciting transitions, or maybe even having a title text fading in at the end. Unfortunately I didn't find much time to attempt these, but they would definitely have improved the work. Additionally, everything could potentially have been done in one sequence rather than having to put multiple sequences together and would have allowed for some less confusing file management. 
