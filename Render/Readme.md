@@ -92,7 +92,9 @@ As I wanted a slightly rusted look for the door, this was the biggest venture in
 
 ## Ceiling Lights
 
+The ceiling lights were based off the same hanging light panels you see in F1 garages - designed to illuminate the cars. The main light part was formed from a cube and using loop cuts in the same manner as the screens, an inner section was extruded inwards so that a small lip was created around the edge. The gradient on the top of the light was formed by having a single loop cut through the centre of the x and y axes, and then transforming that centre point upwards. The hanging supports are simply just cylinders scaled to be very long and very narrow, which are then each joined to a torus mesh that's only half-poking out through the main light bit. 
 
+A metallic grey material was used for the majority of this model, with an emissive white used on the light panel itself.
 
 
 # Scene Setup
