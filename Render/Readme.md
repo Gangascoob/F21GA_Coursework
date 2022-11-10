@@ -41,7 +41,9 @@ The back section was then widened and a long strip of the middle extruded upward
 
 #### Progress Screenshots
 
-![Progress of car](Screenshots/Car_earlyshape.png) ![Progress of car](Screenshots/Car_moreshaping.png) ![Progress of car](Screenshots/Car_wingstart)
+![Progress of car](Screenshots/Car_earlyshape.png)
+![Progress of car](Screenshots/Car_moreshaping.png)
+![Progress of car](Screenshots/Car_wingstart.png)
 
 The body of the car uses the same red theme as the rest of the scene, with the metallic level turned up just a little bit and the roughness brought down to give a clean shiny look. The team's logo was also added to the nose of the car (a really simple model reminiscent of the Ferrari logo, but with a raccoon's head instead of the iconic horse).
 
