@@ -20,6 +20,8 @@ Originally I had planned to go with a concrete-style material for the inner wall
 
 ## The Cars
 
+![Finished Car](Screenshots/car_finished.png)
+
 The cars are the most important and central models of the scene - and thus the most time was put into them.
 They're split into two parts - the main body (chassis) and the wheels. Keeping them as separate objects allows for the wheels to be animated separately from the rest of the body.
 
