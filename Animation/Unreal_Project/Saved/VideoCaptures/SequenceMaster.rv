@@ -1,0 +1,157 @@
+GTOa (3)
+
+rv : RVSession (2)
+{
+	session
+	{
+		float fps = 30.000000
+		int realtime = 1
+	}
+
+	writer
+	{
+		string name = "rvSession.py"
+		string version = "0.3"
+	}
+}
+
+sourceGroup000000 : RVSourceGroup (1)
+{
+	ui
+	{
+		string name = "TestLevelSequence_2.avi"
+	}
+}
+
+sourceGroup000000_source : RVFileSource (1)
+{
+	cut
+	{
+		int in = 0
+		int out = 101
+	}
+
+	group
+	{
+		int noMovieAudio = 1
+	}
+
+	media
+	{
+		string movie = "TestLevelSequence_2.avi"
+		string shot = ""
+	}
+}
+
+sourceGroup000001 : RVSourceGroup (1)
+{
+	ui
+	{
+		string name = "TestLevelSequence_3.avi"
+	}
+}
+
+sourceGroup000001_source : RVFileSource (1)
+{
+	cut
+	{
+		int in = 0
+		int out = 150
+	}
+
+	group
+	{
+		int noMovieAudio = 1
+	}
+
+	media
+	{
+		string movie = "TestLevelSequence_3.avi"
+		string shot = ""
+	}
+}
+
+sourceGroup000002 : RVSourceGroup (1)
+{
+	ui
+	{
+		string name = "TestLevelSequence_4.avi"
+	}
+}
+
+sourceGroup000002_source : RVFileSource (1)
+{
+	cut
+	{
+		int in = 0
+		int out = 121
+	}
+
+	group
+	{
+		int noMovieAudio = 1
+	}
+
+	media
+	{
+		string movie = "TestLevelSequence_4.avi"
+		string shot = ""
+	}
+}
+
+sourceGroup000003 : RVSourceGroup (1)
+{
+	ui
+	{
+		string name = "TestLevelSequence_5.avi"
+	}
+}
+
+sourceGroup000003_source : RVFileSource (1)
+{
+	cut
+	{
+		int in = 0
+		int out = 149
+	}
+
+	group
+	{
+		int noMovieAudio = 1
+	}
+
+	media
+	{
+		string movie = "TestLevelSequence_5.avi"
+		string shot = ""
+	}
+}
+
+sourceGroup000004 : RVSourceGroup (1)
+{
+	ui
+	{
+		string name = "TestLevelSequence_6.avi"
+	}
+}
+
+sourceGroup000004_source : RVFileSource (1)
+{
+	cut
+	{
+		int in = 0
+		int out = 235
+	}
+
+	group
+	{
+		int noMovieAudio = 1
+	}
+
+	media
+	{
+		string movie = "TestLevelSequence_6.avi"
+		string shot = ""
+	}
+}
+
