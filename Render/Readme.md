@@ -47,5 +47,10 @@ The seat uses a rough, dark grey material with a noise node added to simulate th
 
 ## Workstations
 
+Given the workstations would mostly be hidden by stools, they didn't have to be particularly spectacular. Simply scaling a cube up to the right shape and performing a couple of loop cuts to allow the bottom to bevel inwards was enough. Likewise, the surface top was just a flattened cube with slightly bevelled edges. 
+To keep with the 'clean' glossy look that modern F1 garages have the workstations utilized the same plasticky red that the walls and ceiling used, while the surface is a slightly rougher black.
+
+## Laptops
+
 
 
