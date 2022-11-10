@@ -73,5 +73,18 @@ On reflection, power buttons and cables could have been added for extra detail -
 
 The trolleys were more of a pain than expected. Originally I had tried to do it just using loop cuts and extrusions from a cube but was unable to get comfortable curves on the edges using that method. This led to having to create the edges separately and join them together, then curve the corners to give a more modern aesthetic by moving selected edges. The shelves were simple enough with just being scaled cubes, as were the wheels as cylinders.
 
+As with a lot of the scene, the trolleys use a metallic-ish red and just a plain black with no adjustments for the wheels as they're generally out of sight and thus don't require the same level of pretty as the more visible models do.
 
+## Steering Wheels
 
+The steering wheel was also a bit of an annoyance to model. As with most of the other models, it started as a cube and was transformed with a number of loop cuts and extrusions. Things got a bit tricky trying to make the handles rounder and this was eventually achieved with an absurd number of loop cuts and tiny adjustments being made on individual faces/edges. The buttons and screen were made by selecting individual faces on the many loop cuts on the front face of the steering wheel and using the transform tool to move them outwards rather than extruding. This gave each button a more round look rather than my original attempts that had involved extrusion and simply looked awful - like something you'd expect in an early 1990s racing game. 
+
+I tried to go with a sort of high-quality plastic look for the main body of the wheel, with a black base colour and roughness turned quite high. The buttons and screen were just basic colours but didn't seem to warrant anything further than that. 
+
+This was a model that would have greatly benefited from using the mirror tool, as it's quite clearly a bit lopsided. Using a clearer reference may also have been beneficial for the placement of buttons and potential gearknobs, although with the semi-realism theme present it didn't have to be perfect and it represents a high-end steering wheel well enough.
+
+## Garage Doors
+
+The garage doors were also one of the simpler models - just a cube scaled lengthwise and an array modifier added. A plane was placed in the middle of the object so that the door had a ridged/corrugated look rather than essentially just being a wall.
+
+As I wanted a slightly rusted look for the door, this was the biggest venture into creating a complex material. Object texture co-ordinates feeding into a musgrave texture node with detail of 12 provided the rusting pattern by feeding the height into the metallic node. Feeding this output also into a colour ramp node allowed for setting a gradient of rusting colour. The texture co-ordinate node was also fed into a noise texture which then fed into another colour ramp. This colour ramp used black and white to determine the strength of the rusting colours by feeding into the same Mix node that the first colour ramp did. This Mix was then put into the base colour.
