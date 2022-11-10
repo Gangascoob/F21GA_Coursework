@@ -27,7 +27,7 @@ Each shot was done using Unreal's sequencer and CineCamera in separate sequences
 
 The first animation is a wide-angle view of the entire garage starting in darkness, with the lights being turned on a couple of seconds in and illuminating the cars. This was achieved by setting each light in the scene as an actor and then adjusting the light values at certain keyframes. The sudden oncoming of the light had to be done by setting a keyframe with light values of zero a frame or two before the light values were increased to a very high value. This created a kind of 'flashing on' effect which then slowly illuminated the scene before the sequence cuts.
 
-![First Sequence](./Render/Screenshots/opening_sequence.png)
+![First Sequence](../Render/Screenshots/opening_sequence.png)
 
 The next few animations were just simple camera pans along the side, front, and top of the car. These were done by setting keyframes in the sequencer with different transform values for the camera. 
 
