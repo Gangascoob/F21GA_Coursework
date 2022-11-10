@@ -1,6 +1,7 @@
 # Modelling Process
 
 The scene consists of 10 different models - described below.
+
 ![1. The Garage](Blender_Project_Files/garage.blend)
 
 ![2. The Cars](Blender_Project_Files/car.blend)
