@@ -1,16 +1,16 @@
 # Modelling Process
 
 The scene consists of 10 different models - described below.
-1. The Garage
-2. The Cars
-3. Stools
-4. Workstations
-5. Laptops
-6. Screens/Monitors
-7. Trolleys
-8. Steering Wheels
-9. Garage doors
-10. Ceiling Lights
+![1. The Garage](Blender_Project_Files/garage.blend)
+![2. The Cars](Blender_Project_Files/car.blend)
+![3. Stools](Blender_Project_Files/stool.blend)
+![4. Workstations](Blender_Project_Files/table_unit_garage.blend)
+![5. Laptops](Blender_Project_Files/laptop.blend)
+![6. Screens/Monitors](Blender_Project_Files/screen.blend)
+![7. Trolleys](Blender_Project_Files/toolstation.blend)
+![8. Steering Wheels](Blender_Project_Files/steeringwheel.blend)
+![9. Garage doors](Blender_Project_Files/garagedoor.blend)
+![10. Ceiling Lights](Blender_Project_Files/ceilinglight.blend)
 
 ## The Garage
 
