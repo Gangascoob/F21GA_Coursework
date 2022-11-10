@@ -10,6 +10,7 @@ The scene consists of 9 different models - described below.
 7. Trolleys
 8. Steering Wheels
 9. Garage doors
+10. Ceiling Lights
 
 ## The Garage
 
@@ -88,3 +89,12 @@ This was a model that would have greatly benefited from using the mirror tool, a
 The garage doors were also one of the simpler models - just a cube scaled lengthwise and an array modifier added. A plane was placed in the middle of the object so that the door had a ridged/corrugated look rather than essentially just being a wall.
 
 As I wanted a slightly rusted look for the door, this was the biggest venture into creating a complex material. Object texture co-ordinates feeding into a musgrave texture node with detail of 12 provided the rusting pattern by feeding the height into the metallic node. Feeding this output also into a colour ramp node allowed for setting a gradient of rusting colour. The texture co-ordinate node was also fed into a noise texture which then fed into another colour ramp. This colour ramp used black and white to determine the strength of the rusting colours by feeding into the same Mix node that the first colour ramp did. This Mix was then put into the base colour.
+
+## Ceiling Lights
+
+
+
+
+# Scene Setup
+
+As each model was created in its own file, they were each exported as FBX files and imported into the garage model file to create the scene. Using a number of different reference images of modern motorsport garages, the models were moved into reasonable places and a lot of scaling issues had to be fixed (pretty much everything was huge). 
