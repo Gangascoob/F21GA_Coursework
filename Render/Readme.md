@@ -6,7 +6,7 @@ The scene consists of 9 different models - described below.
 3. Stools
 4. Workstations
 5. Laptops
-6. Screens
+6. Screens/Monitors
 7. Trolleys
 8. Steering Wheels
 9. Garage doors
@@ -34,6 +34,7 @@ As most great models do, the car body started as a cube. It was scaled lengthwis
 
 The back section was then widened and a long strip of the middle extruded upwards to create an upside down T-shape. These would serve as the sidepods, roll hoop and engine cover. Many more loop cuts were made to allow finer tuning of the shape of the chassis. On reflection, I should have utilised the mirror modifier available in Blender, rather than creating it all at once - since, despite using the grid to try mirror things by look, there are bits of the model that aren't perfectly even. Additionally, the shape of the sidepods could have been done using the sculpting tool for a more realistic look, but that may have taken away from the semi-lowpoly feel of the models.
 
+The body of the car uses the same red theme as the rest of the scene, with the metallic level turned up just a little bit and the roughness brought down to give a clean shiny look. The team's logo was also added to the nose of the car (a really simple model reminiscent of the Ferrari logo, but with a raccoon's head instead of the iconic horse).
 
 ## Stools
 
@@ -51,6 +52,26 @@ Given the workstations would mostly be hidden by stools, they didn't have to be 
 To keep with the 'clean' glossy look that modern F1 garages have the workstations utilized the same plasticky red that the walls and ceiling used, while the surface is a slightly rougher black.
 
 ## Laptops
+
+To model the laptops, a cube was 'flattened' and scaled upwards on the x and y axes to create the laptop base. This was then duplicated and rotated to create the laptop's screen/lid. Loop cuts were made near each edge of the lid to create a lip around the edges. The inner face of this was then scaled down a tiny bit and then extruded inwards. The scaling allows there to be a slight gradient rather than just a sharp 90 degree angle. 
+
+The keys started as a single row of individual cube meshes, followed by duplicating the row a number of times to get a decent number of keys. Initially an array modifier had been used to do this, but that didn't allow for modifying individual keys to imitate the larger keys (e.g. space bar and return). Once the keys had been sized to look somewhat similar to a standard keyboard, the touchpad was modelled by just putting a number of loopcuts on the base panel of the laptop and setting it to a different material colour.
+
+More time could have been spent making the keyboard more realistic, but given the render and animations don't really showcase the laptop keyboards at all it didn't seem like a good use of time to commit to making something that isn't even seen.
+
+The materials were nothing fancy - simply a rough metallic grey for the laptop casing. The keys and screen used a darker grey with similar roughness, but metallic turned all the way to zero to give a plastic feel.
+
+## Screens/Monitors
+
+The monitors were modelled off my own BenQ monitor, although simplified a little. The actual screen portion was modelled in essentially the same manner as the screen of the laptop, as were the wall screens. The base started as a cylinder which was then flattened and widened through scaling to create the familiar stretched circular base found on most monitors. The stand itself was extruded from the back of the screens, with some edge selections + moves to create nicer angles.
+
+The materials were as you'd expect for a monitor/screen - a simple black, zero metallic and low roughness for everything but the screen. The screen shared practically the same material, but with roughness turned up to give that 'dead' look that switched off screens have.
+
+On reflection, power buttons and cables could have been added for extra detail - however in the context of the scene it doesn't seem particularly important, as the cars should draw most of the attention of the viewer.
+
+## Trolleys
+
+The trolleys were more of a pain than expected. Originally I had tried to do it just using loop cuts and extrusions from a cube but was unable to get comfortable curves on the edges using that method. This led to having to create the edges separately and join them together, then curve the corners to give a more modern aesthetic by moving selected edges. The shelves were simple enough with just being scaled cubes, as were the wheels as cylinders.
 
 
 
