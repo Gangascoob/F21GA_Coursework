@@ -52,9 +52,13 @@ The body of the car uses the same red theme as the rest of the scene, with the m
 
 ## Stools
 
+![Stool](Screenshots/Stool_finished.png)
+
 The inspiration and slight reference (not exact) for the garage stools was just the bog-standard breakfast stool (such as [this](https://www.simplybarstools.co.uk/semplice-bar-stool-black/)).
 
 The main leg of the stool consisted of just an elongated cylinder, with the base support being modelled in a similar fashion to the wheels - an empty cylinder with the solidify modifier. The two were connected in the same kind of method used to model the spokes of the wheel too, with a loop cut near the base of the leg and extruding a section out to the outer ring. To create the footrest, the base ring was duplicated and the duplicate moved up to a reasonable height, and connected with the same kind of spokes. However, to add a bit more individuality to it the footrest was shortened to be only around 45 degrees rather than the full 360. This was done by performing loop cuts at each end of the desired area and then simply deleting the other edges and vertices. With a subdivision surface modifier, this actually came out better than I'd expected/hoped. 
+
+![Stool](Screenshots/Stool_base_and_footrest.png)
 
 Modelling the stool seat was a matter of creating a cylinder and then adding a loop cut near the top, selecting that top face and then scaling it down so a gradient was formed to give a rounder edge. A slightly squished sphere was cut in half and added to the underside of the seat as a support.
 
@@ -62,20 +66,30 @@ The seat uses a rough, dark grey material with a noise node added to simulate th
 
 ## Workstations
 
+![Workstation](Screenshots/workstation.png)
+
 Given the workstations would mostly be hidden by stools, they didn't have to be particularly spectacular. Simply scaling a cube up to the right shape and performing a couple of loop cuts to allow the bottom to bevel inwards was enough. Likewise, the surface top was just a flattened cube with slightly bevelled edges. 
 To keep with the 'clean' glossy look that modern F1 garages have the workstations utilized the same plasticky red that the walls and ceiling used, while the surface is a slightly rougher black.
 
 ## Laptops
 
+![Laptop](Screenshots/laptop_finished.png)
+
 To model the laptops, a cube was 'flattened' and scaled upwards on the x and y axes to create the laptop base. This was then duplicated and rotated to create the laptop's screen/lid. Loop cuts were made near each edge of the lid to create a lip around the edges. The inner face of this was then scaled down a tiny bit and then extruded inwards. The scaling allows there to be a slight gradient rather than just a sharp 90 degree angle. 
 
+![LaptopProgress](Screenshots/laptop_shape.png)
+
 The keys started as a single row of individual cube meshes, followed by duplicating the row a number of times to get a decent number of keys. Initially an array modifier had been used to do this, but that didn't allow for modifying individual keys to imitate the larger keys (e.g. space bar and return). Once the keys had been sized to look somewhat similar to a standard keyboard, the touchpad was modelled by just putting a number of loopcuts on the base panel of the laptop and setting it to a different material colour.
+
+![LaptopProgress](Screenshots/laptop_progress.png)
 
 More time could have been spent making the keyboard more realistic, but given the render and animations don't really showcase the laptop keyboards at all it didn't seem like a good use of time to commit to making something that isn't even seen.
 
 The materials were nothing fancy - simply a rough metallic grey for the laptop casing. The keys and screen used a darker grey with similar roughness, but metallic turned all the way to zero to give a plastic feel.
 
 ## Screens/Monitors
+
+![Monitor](Screenshots/monitor.png)
 
 The monitors were modelled off my own BenQ monitor, although simplified a little. The actual screen portion was modelled in essentially the same manner as the screen of the laptop, as were the wall screens. The base started as a cylinder which was then flattened and widened through scaling to create the familiar stretched circular base found on most monitors. The stand itself was extruded from the back of the screens, with some edge selections + moves to create nicer angles.
 
@@ -85,13 +99,19 @@ On reflection, power buttons and cables could have been added for extra detail -
 
 ## Trolleys
 
+![Trolley](Screenshots/trolley.png)
+
 The trolleys were more of a pain than expected. Originally I had tried to do it just using loop cuts and extrusions from a cube but was unable to get comfortable curves on the edges using that method. This led to having to create the edges separately and join them together, then curve the corners to give a more modern aesthetic by moving selected edges. The shelves were simple enough with just being scaled cubes, as were the wheels as cylinders.
 
 As with a lot of the scene, the trolleys use a metallic-ish red and just a plain black with no adjustments for the wheels as they're generally out of sight and thus don't require the same level of pretty as the more visible models do.
 
 ## Steering Wheels
 
+![Steering Wheel](Screenshots/steeringwheel_finished.png)
+
 The steering wheel was also a bit of an annoyance to model. As with most of the other models, it started as a cube and was transformed with a number of loop cuts and extrusions. Things got a bit tricky trying to make the handles rounder and this was eventually achieved with an absurd number of loop cuts and tiny adjustments being made on individual faces/edges. The buttons and screen were made by selecting individual faces on the many loop cuts on the front face of the steering wheel and using the transform tool to move them outwards rather than extruding. This gave each button a more round look rather than my original attempts that had involved extrusion and simply looked awful - like something you'd expect in an early 1990s racing game. 
+
+![Early wheel](Screenshots/steeringwheel_early.png)
 
 I tried to go with a sort of high-quality plastic look for the main body of the wheel, with a black base colour and roughness turned quite high. The buttons and screen were just basic colours but didn't seem to warrant anything further than that. 
 
@@ -99,11 +119,17 @@ This was a model that would have greatly benefited from using the mirror tool, a
 
 ## Garage Doors
 
+![Garage door](Screenshots/garage_door.png)
+
 The garage doors were also one of the simpler models - just a cube scaled lengthwise and an array modifier added. A plane was placed in the middle of the object so that the door had a ridged/corrugated look rather than essentially just being a wall.
 
 As I wanted a slightly rusted look for the door, this was the biggest venture into creating a complex material. Object texture co-ordinates feeding into a musgrave texture node with detail of 12 provided the rusting pattern by feeding the height into the metallic node. Feeding this output also into a colour ramp node allowed for setting a gradient of rusting colour. The texture co-ordinate node was also fed into a noise texture which then fed into another colour ramp. This colour ramp used black and white to determine the strength of the rusting colours by feeding into the same Mix node that the first colour ramp did. This Mix was then put into the base colour.
 
+![Rust material](Screenshots/rust_material.png)
+
 ## Ceiling Lights
+
+![Ceiling Light](Screenshots/ceiling_light_finished.png)
 
 The ceiling lights were based off the same hanging light panels you see in F1 garages - designed to illuminate the cars. The main light part was formed from a cube and using loop cuts in the same manner as the screens, an inner section was extruded inwards so that a small lip was created around the edge. The gradient on the top of the light was formed by having a single loop cut through the centre of the x and y axes, and then transforming that centre point upwards. The hanging supports are simply just cylinders scaled to be very long and very narrow, which are then each joined to a torus mesh that's only half-poking out through the main light bit. 
 
