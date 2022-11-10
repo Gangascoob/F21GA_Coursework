@@ -1,19 +1,17 @@
 # Importing files into Unreal Engine 5
 
 Before being able to import the files into the UE5 project, the entire garage scene had to be exported from Blender.
-This was done by first removing all the lights and cameras, selecting everything in the scene and exporting as an FBX. The export settings involved changing the path mode to copy and only including the selected objects and only the mesh types. The geometry smoothing was also changed to face.
+This was done by first removing all the lights and cameras, selecting everything in the scene and exporting as an FBX.
 
-Once the UE5 project was created and opened, a new scene was also created and the Blender scene FBX was imported into the content drawer. Selecting of the individual models that now appeared in the content drawer and dragging them all out into the scene in one go kept everything in its original place. This did mean the origins of each model was at the centre of the scene which made adjusting anything a bit of a nightmare, but it was better and faster than manually placing each thing in the right place again.
+Once the UE5 project was created and opened, a new scene was created and the Blender scene FBX was imported into the content drawer. Selecting of the individual models that now appeared in the content drawer and dragging them all out into the scene in one go kept everything in its original place.
 
-There were a couple of issues that came up with the import - the rust texture didn't move over and I was unable to rebuild it using Unreal's material editor and could not find a decent way to export it properly from Blender as its own material (there was an attempt at baking the material to an image but the UV unwrap wasn't playing nice with the array modifier used so I simply gave up on it).
+There were a couple of issues that came up with the import - the rust texture didn't move over and I was unable to rebuild it using Unreal's material editor and could not find a decent way to export it properly from Blender as its own material.
 
 Another issue was that Unreal appears to deal with planes differently and as such the yellow background of the logo simply disappeared - I got round this by rebuilding it from a solid mesh and moving it into the correct place.
-Other than those two issues, there were no other glaring problems.
-
 
 # Lights
 
-The lighting was set up almost identically to the render scene in Blender (Rectangle lights, or area lights in Unreal, were set up underneath the ceiling lights facing onto the cars), but with one small difference. Due to Unreal's area lights being directional, the red colour from the cars would reflect up onto the ceiling light and so the light panel would be red rather than white. To fix this, duplicate area lights were created but rotated 180 degrees so they illuminated upwards into the ceiling light. This overrode the red reflections and produced a nice bright white colour on the light panels.
+The lighting was set up almost identically to the render scene in Blender, but with one small difference. Due to Unreal's area lights being directional, the red colour from the cars would reflect up onto the ceiling light and so the light panel would be red. To fix this, duplicate area lights were created but rotated 180 degrees so they illuminated upwards into the ceiling light and overrode the red reflections.
 
 For the final animation of the opening garage door, a 64x64 area light was placed outside facing directly inside at the maximum strength of 160cd to imitate the blinding contrast of opening the door from a dark room into direct sunlight.
 
