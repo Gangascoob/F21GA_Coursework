@@ -97,6 +97,15 @@ The ceiling lights were based off the same hanging light panels you see in F1 ga
 A metallic grey material was used for the majority of this model, with an emissive white used on the light panel itself.
 
 
-# Scene Setup
+# Scene Setup and Lights
 
 As each model was created in its own file, they were each exported as FBX files and imported into the garage model file to create the scene. Using a number of different reference images of modern motorsport garages, the models were moved into reasonable places and a lot of scaling issues had to be fixed (pretty much everything was huge). 
+
+The camera was set up in one of the corners of the garage, about halfway up the wall, so that the entirety of one side of the garage could be viewed whilst also being able to view some parts of the other side. More could be seen if the camera had been higher up, but with the focal length set to give a fairly wide field of view this would have ended up making the cars seem even smaller and more of the models in the corners to become even more distorted (you can notice that the stools on the left appear slightly wider).
+
+It was important to have the cars directly under their respective ceiling lights, as these would be the only source of lighting in the entire scene.
+Rectangular 300W lights were placed just underneath the ceiling lights so that the light would go in both directions and light up the emissive light panel of the ceiling lights as well as the cars underneath. 
+
+# Render
+
+The scene was rendered in Cycles, using GPU Compute and with the light bounces set to the default of 12. The render settings were left as default really as the outcome was in line with my vision.
