@@ -1,6 +1,6 @@
 # Modelling Process
 
-The scene consists of 9 different models - described below.
+The scene consists of 10 different models - described below.
 1. The Garage
 2. The Cars
 3. Stools
