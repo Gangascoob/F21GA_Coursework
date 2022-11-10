@@ -28,6 +28,9 @@ The cars are the most important and central models of the scene - and thus the m
 They're split into two parts - the main body (chassis) and the wheels. Keeping them as separate objects allows for the wheels to be animated separately from the rest of the body.
 
 ### Wheels
+
+![Wheel](Screenshots/Wheel_final.png)
+
 To generate the semi-filled cylinder type shape of a wheel, a cylinder mesh was created with a cap fill type of 'nothing', and then a solidify modifier was added to thicken the walls. Both the tyre and the wheel structure were created doing this and scaled to appropriate sizes.
 Using just simple cylinders did cause the edges of the tyres to be very sharp, rather than the slight bulge outwards you'd expect, so some loop cuts were made around the circular face and the centre-most cuts pulled out slightly to create a curving effect and soften the edges. Finally, a subdivision surface modifier was added to add some extra resolution.
 The spokes for the internal wheel structure involved loop cuts in the outside of the cylinder and then extruding specific faces at set intervals towards the wheel object. A subdivision surface modifier was added to this too to provide some curvature, as the initial extrusions looked quite 'blocky' and unsatisfying.
