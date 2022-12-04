@@ -18,4 +18,10 @@ Clearly something was wrong here - and despite being able to rotate the object i
 
 ## Next steps - Camera Controls
 
-In order to determine what was happening with the model, it was important to have better camera controls so I was able to see what had loaded.
+In order to determine what was happening with the model, it was important to have better camera controls so I was able to see what had loaded. The following lines of code were added to allow the user to move the camera in each direction, but also most importantly move the camera forward and backwards so that we could zoom out and have a proper look at the model.
+
+![image](https://user-images.githubusercontent.com/67718774/205512770-9f787bb0-034c-4547-b228-ce0f33cbdb20.png)
+
+
+The camera controls are the standard WASD (forwards, back, left, right) but also include Q and E for moving upwards and downwards.
+
