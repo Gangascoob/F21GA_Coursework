@@ -25,3 +25,17 @@ In order to determine what was happening with the model, it was important to hav
 
 The camera controls are the standard WASD (forwards, back, left, right) but also include Q and E for moving upwards and downwards.
 
+## Inspecting the first model load
+
+Now that we can control the camera better, we can look at what model is actually being displayed. 
+
+![image](https://user-images.githubusercontent.com/67718774/205512879-6f4f5771-8e16-409b-bf0c-1d3a8951e357.png)
+
+
+While this might not at first glance look like it is even distantly related to a car model, upon closer inspection at different angles it becomes clear that there is a car model *somewhere* in there.
+
+There are telltale signs of potential wheels at each end - although grossly deformed.
+![image](https://user-images.githubusercontent.com/67718774/205513009-1fd28578-7305-41fd-92c6-8ab5222a5754.png)
+ 
+
+
