@@ -37,5 +37,18 @@ While this might not at first glance look like it is even distantly related to a
 There are telltale signs of potential wheels at each end - although grossly deformed.
 ![image](https://user-images.githubusercontent.com/67718774/205513009-1fd28578-7305-41fd-92c6-8ab5222a5754.png)
  
+## Applying materials
 
+Before trying to fix the horrendous deformation of the mesh, I decided to fix the material rendering first. The issue here was with Blender, rather than OpenGL - so to fix this I created a new UV map of the object and fed that into an image texture node on each material. This could then be baked to the object in the Rendering tab and set as an Image source for the texture. Doing this and running the OpenGL again then gave me this:
+
+![image](https://user-images.githubusercontent.com/67718774/205650068-796069b5-a57f-4172-9e7d-31ea8cc5512c.png)
+
+While the mesh is still deformed, at least now it's trying to render materials.
+
+### Decision Making
+
+At this point, I had to make the decision to focus on other parts of the coursework such as lighting. This was because of personal circumstances not leaving a lot of time to spare digging around trying to fix the model when I could get other parts done and come back to it.
+
+
+### Lighting
 
