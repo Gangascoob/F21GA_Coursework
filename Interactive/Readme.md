@@ -49,6 +49,10 @@ While the mesh is still deformed, at least now it's trying to render materials.
 
 At this point, I had to make the decision to focus on other parts of the coursework such as lighting. This was because of personal circumstances not leaving a lot of time to spare digging around trying to fix the model when I could get other parts done and come back to it.
 
+For the sake of troubleshooting as well, I quickly modelled an incredibly low-poly mockup of my previous car just to get the general shape and tried importing that so that I'd be able to tell if lighting was working properly. The newly imported model had no issues with the mesh deforming, as seen:
+
+![image](https://user-images.githubusercontent.com/67718774/205654957-f8fa17b8-a1d4-42fe-98f5-ff870ac57917.png)
+
 
 ### Lighting
 
