@@ -53,6 +53,7 @@ For the sake of troubleshooting as well, I quickly modelled an incredibly low-po
 
 ![image](https://user-images.githubusercontent.com/67718774/205654957-f8fa17b8-a1d4-42fe-98f5-ff870ac57917.png)
 
+So with a working mesh, I decided I could move on with the rest of the coursework and then come back to the original car if time allowed.
 
 ### Lighting
 
