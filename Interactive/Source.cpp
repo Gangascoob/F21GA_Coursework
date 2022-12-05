@@ -87,11 +87,11 @@ bool keyStatus[1024];								// Track key strokes
 auto currentTime = 0.0f;							// Framerate
 auto deltaTime = 0.0f;								// time passed
 auto lastTime = 0.0f;								// Used to calculate Frame rate
-vec4 ia;        // Ambient colour
+vec3 ia = vec3(1.0f, 1.0f, 1.0f);        // Ambient colour
 float ka;        // Ambient constant
-vec4 id;        // diffuse colour
+vec3 id = vec3(0.9f, 0.9f, 0.9f);        // diffuse colour
 float kd;        // Diffuse constant
-vec4 is;        // specular colour
+vec3 is = vec3(0.6, 0.8, 0.6);        // specular colour
 float ks;        // specular constant
 float shininess;// shininess constant
 vec3 lightPos = vec3(-3.0f, 4.0f, 6.0f);
@@ -251,7 +251,7 @@ void startup()
 	cout << "RENDERER: " << (char *)glGetString(GL_RENDERER) << endl;	
 
 	cout << endl << "Loading content..." << endl;	
-	content.LoadGLTF("assets/dog.gltf");
+	content.LoadGLTF("assets/lowpolycar.gltf");
 
 	pipeline.CreatePipeline();
 	pipeline.LoadShaders("shaders/vs_model.glsl", "shaders/fs_model.glsl");
