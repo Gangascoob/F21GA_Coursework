@@ -234,7 +234,7 @@ void startup()
 	cout << "RENDERER: " << (char *)glGetString(GL_RENDERER) << endl;	
 
 	cout << endl << "Loading content..." << endl;	
-	content.LoadGLTF("assets/car.glb");
+	content.LoadGLTF("assets/lowpolycar.gltf");
 
 	pipeline.CreatePipeline();
 	pipeline.LoadShaders("shaders/vs_model.glsl", "shaders/fs_model.glsl");
@@ -317,7 +317,6 @@ void render()
 	glm::mat4 modelMatrix = glm::translate(glm::mat4(1.0f), glm::vec3(0.0f, 0.0f, 0.0f));
 	modelMatrix = glm::rotate(modelMatrix, modelRotation.x, glm::vec3(1.0f, 0.0f, 0.0f));
 	modelMatrix = glm::rotate(modelMatrix, modelRotation.y, glm::vec3(0.0f, 1.0f, 0.0f));
-	modelMatrix = glm::rotate(modelMatrix, modelRotation.z, glm::vec3(0.0f, 0.0f, 1.0f));	//added to allow zooming in and out
 	modelMatrix = glm::scale(modelMatrix, glm::vec3(1.0f, 1.0f, 1.0f));
 
 	glm::mat4 mv_matrix = viewMatrix * modelMatrix;

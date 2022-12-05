@@ -13,7 +13,7 @@ void Content::LoadGLTF(string filename){
 	string err;
     string warn;
 
-	bool res = loader.LoadBinaryFromFile(&model, &err, &warn, filename);
+	bool res = loader.LoadASCIIFromFile(&model, &err, &warn, filename);
 	if (!warn.empty()) cout << "WARNING - GLTF: " << warn << endl;
 	if (!err.empty())  cout << "ERROR - GLTF: " << err << endl;
 	
