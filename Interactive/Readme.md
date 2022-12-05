@@ -61,5 +61,9 @@ Firstly, lighting has to actually be enabled - which is done in the startup() fu
 
 ![image](https://user-images.githubusercontent.com/67718774/205663512-9f3324c0-a8d3-461e-bf69-c6ca8097a95a.png)
 
+Next, I setup a function for using the light - glLight().
+![image](https://user-images.githubusercontent.com/67718774/205681377-9e784590-5ad2-4aac-b64f-6848f7387eff.png)
+
+
 
 
