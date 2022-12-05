@@ -72,6 +72,7 @@ void onMouseMoveCallback(GLFWwindow *window, double x, double y);
 void onMouseWheelCallback(GLFWwindow *window, double xoffset, double yoffset);
 
 
+
 // VARIABLES
 GLFWwindow *window; 								// Keep track of the window
 auto windowWidth = 800;								// Window width					
@@ -87,15 +88,20 @@ bool keyStatus[1024];								// Track key strokes
 auto currentTime = 0.0f;							// Framerate
 auto deltaTime = 0.0f;								// time passed
 auto lastTime = 0.0f;								// Used to calculate Frame rate
-vec3 ia = vec3(1.0f, 1.0f, 1.0f);        // Ambient colour
-float ka;        // Ambient constant
-vec3 id = vec3(0.9f, 0.9f, 0.9f);        // diffuse colour
-float kd;        // Diffuse constant
-vec3 is = vec3(0.6, 0.8, 0.6);        // specular colour
-float ks;        // specular constant
-float shininess;// shininess constant
+
+//Lighting variables
+vec3 ia = vec3(0.5f, 0.5f, 0.5f);        // Ambient colour
+float ka;        						 // Ambient constant
+vec3 id = vec3(0.5f, 0.5f, 0.5f);        // diffuse colour
+float kd;        						 // Diffuse constant
+vec3 is = vec3(0.5, 0.5, 0.5);           // specular colour
+float ks;       					     // specular constant
+float shininess;					     // shininess constant
 vec3 lightPos = vec3(-3.0f, 4.0f, 6.0f);
 
+float kab; 								 //Ambient constant buffer
+float kdb;								 //Diffuse constant buffer
+float ksb;								 //Specular consant buffer
 
 
 
@@ -300,10 +306,49 @@ void update()
 	if (keyStatus[GLFW_KEY_Q]) cameraPosition.y -= 0.05f;
 	if (keyStatus[GLFW_KEY_E]) cameraPosition.y += 0.05f;
 
+
+//Lighting position controls
+
 	if (keyStatus[GLFW_KEY_U]) lightPos.y += 0.05f;
 	if (keyStatus[GLFW_KEY_J]) lightPos.y -= 0.05f;
 	if (keyStatus[GLFW_KEY_H]) lightPos.x -= 0.05f;
 	if (keyStatus[GLFW_KEY_L]) lightPos.x += 0.05f;
+
+//Lighting strength controls
+
+//TODO - change so that values don't go below -0.2 or so, can use if-statements
+//TODO - try work out an on/off switch
+
+	if (keyStatus[GLFW_KEY_V]) {
+			ka -= 0.01f;          //turns down ambient
+			kab = ka;			  //stores the current ambient constant
+			kd -= 0.01f;	      //turns down diffuse
+			kdb = kd;			  //stores the current diffuse constant
+			ks -= 0.01f;          //turns down specular
+			ksb = ks;             //stores the current specular constant
+	} 
+	
+	if (keyStatus[GLFW_KEY_B]) {
+		 ka += 0.01f;            //turns up ambient
+		 kab = ka;               
+		 kd += 0.01f;	         //turns up ambient
+		 kdb = kd;
+		 ks += 0.01f;            //turns up specular
+		 ksb = ks;
+	}
+
+	if (keyStatus[GLFW_KEY_O]) {
+		if(ka>0.0f){			 //turns lighting off if it's on (by setting all constants to zero)
+			ka = 0.0f;
+			kd = 0.0f;
+			ks = 0.0f;
+		}
+		else {					 //sets lighting back to where it was before being turned off - might be funky if used before turning off.
+			ka = kab;
+			kd = kdb;
+			ks = ksb;
+		}
+	}
 
 
 
@@ -397,6 +442,7 @@ void ui()
 		ImGui::Text("About: 3D Graphics and Animation 2022"); // ImGui::Separator();
 		ImGui::Text("Performance: %.3fms/Frame (%.1f FPS)", 1000.0f / ImGui::GetIO().Framerate, ImGui::GetIO().Framerate);
 		ImGui::Text("Pipeline: %s", pipeline.pipe.error?"ERROR":"OK");
+		ImGui::Text("ka: %.01f", ka);
 	}
 	ImGui::End();
 
