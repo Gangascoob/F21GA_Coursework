@@ -55,5 +55,5 @@ For the sake of troubleshooting as well, I quickly modelled an incredibly low-po
 
 So with a working mesh, I decided I could move on with the rest of the coursework and then come back to the original car if time allowed.
 
-### Lighting
+## Lighting
 
