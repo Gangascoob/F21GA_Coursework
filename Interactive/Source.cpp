@@ -71,6 +71,7 @@ void onMouseButtonCallback(GLFWwindow *window, int button, int action, int mods)
 void onMouseMoveCallback(GLFWwindow *window, double x, double y);
 void onMouseWheelCallback(GLFWwindow *window, double xoffset, double yoffset);
 
+
 // VARIABLES
 GLFWwindow *window; 								// Keep track of the window
 auto windowWidth = 800;								// Window width					
@@ -86,6 +87,22 @@ bool keyStatus[1024];								// Track key strokes
 auto currentTime = 0.0f;							// Framerate
 auto deltaTime = 0.0f;								// time passed
 auto lastTime = 0.0f;								// Used to calculate Frame rate
+vec4 ia;        // Ambient colour
+float ka;        // Ambient constant
+vec4 id;        // diffuse colour
+float kd;        // Diffuse constant
+vec4 is;        // specular colour
+float ks;        // specular constant
+float shininess;// shininess constant
+vec3 lightPos = vec3(-3.0f, 4.0f, 6.0f);
+
+
+
+
+
+//light variables
+GLfloat light_ambient[] = {0.0, 0.0, 0.0, 1.0};
+
 
 Pipeline pipeline;									// Add one pipeline plus some shaders.
 Content content;									// Add one content loader (+drawing).
@@ -234,7 +251,7 @@ void startup()
 	cout << "RENDERER: " << (char *)glGetString(GL_RENDERER) << endl;	
 
 	cout << endl << "Loading content..." << endl;	
-	content.LoadGLTF("assets/lowpolycar.gltf");
+	content.LoadGLTF("assets/dog.gltf");
 
 	pipeline.CreatePipeline();
 	pipeline.LoadShaders("shaders/vs_model.glsl", "shaders/fs_model.glsl");
@@ -247,6 +264,12 @@ void startup()
 	glFrontFace(GL_CCW);
 	glCullFace(GL_BACK);
 	glEnable(GL_CULL_FACE);
+
+	// Enabling lighting
+	//glEnable(GL_LIGHTING);
+	//glEnable(GL_LIGHT0);
+
+	//glLightf(GL_LIGHT0, GL_AMBIENT, *light_ambient);
 
 	glEnable(GL_DEPTH_TEST);
 	glDepthFunc(GL_LEQUAL);
@@ -277,9 +300,12 @@ void update()
 	if (keyStatus[GLFW_KEY_Q]) cameraPosition.y -= 0.05f;
 	if (keyStatus[GLFW_KEY_E]) cameraPosition.y += 0.05f;
 
-		
-	
-	
+	if (keyStatus[GLFW_KEY_U]) lightPos.y += 0.05f;
+	if (keyStatus[GLFW_KEY_J]) lightPos.y -= 0.05f;
+	if (keyStatus[GLFW_KEY_H]) lightPos.x -= 0.05f;
+	if (keyStatus[GLFW_KEY_L]) lightPos.x += 0.05f;
+
+
 
 	// Start the Dear ImGui frame
 	ImGui_ImplOpenGL3_NewFrame();
@@ -299,6 +325,7 @@ void render()
 	// Clear deep buffer
 	static const GLfloat one = 1.0f;
 	glClearBufferfv(GL_DEPTH, 0, &one);
+
 
 	// Enable blend
 	glEnable(GL_BLEND);
@@ -324,6 +351,16 @@ void render()
 	glUniformMatrix4fv(glGetUniformLocation(pipeline.pipe.program, "model_matrix"), 1, GL_FALSE, &modelMatrix[0][0]);
 	glUniformMatrix4fv(glGetUniformLocation(pipeline.pipe.program, "view_matrix"), 1, GL_FALSE, &viewMatrix[0][0]);
 	glUniformMatrix4fv(glGetUniformLocation(pipeline.pipe.program, "proj_matrix"), 1, GL_FALSE, &projMatrix[0][0]);
+
+	glUniform4f(glGetUniformLocation(pipeline.pipe.program, "viewPosition"), cameraPosition.x, cameraPosition.y, cameraPosition.z, 1.0);
+	glUniform4f(glGetUniformLocation(pipeline.pipe.program, "lightPosition"), lightPos.x, lightPos.y, lightPos.z, 1.0);
+	glUniform4f(glGetUniformLocation(pipeline.pipe.program, "ia"), ia.r, ia.g, ia.b, 1.0);
+	glUniform1f(glGetUniformLocation(pipeline.pipe.program, "ka"), ka);	
+	glUniform4f(glGetUniformLocation(pipeline.pipe.program, "id"), id.r, id.g, id.b, 1.0);
+	glUniform1f(glGetUniformLocation(pipeline.pipe.program, "kd"), 1.0f);
+	glUniform4f(glGetUniformLocation(pipeline.pipe.program, "is"), is.r, is.g, is.b, 1.0);
+	glUniform1f(glGetUniformLocation(pipeline.pipe.program, "ks"), 1.0f);
+	glUniform1f(glGetUniformLocation(pipeline.pipe.program, "shininess"), 32.0f);
 
 	content.DrawModel(content.vaoAndEbos, content.model);
 	
@@ -436,3 +473,6 @@ GLenum glCheckError_(const char *file, int line) // Debugger manual function for
 
 	return errorCode;
 }
+
+
+
