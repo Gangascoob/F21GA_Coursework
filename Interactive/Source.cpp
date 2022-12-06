@@ -90,9 +90,9 @@ auto deltaTime = 0.0f;								// time passed
 auto lastTime = 0.0f;								// Used to calculate Frame rate
 
 //Lighting variables
-vec3 ia = vec3(0.5f, 0.5f, 0.5f);        // Ambient colour
+vec3 ia = vec3(0.3f, 0.3f, 0.3f);        // Ambient colour
 float ka;        						 // Ambient constant
-vec3 id = vec3(0.5f, 0.5f, 0.5f);        // diffuse colour
+vec3 id = vec3(1.2f, 1.2f, 1.2f);        // diffuse colour
 float kd;        						 // Diffuse constant
 vec3 is = vec3(0.5, 0.5, 0.5);           // specular colour
 float ks;       					     // specular constant
@@ -104,10 +104,6 @@ float kdb;								 //Diffuse constant buffer
 float ksb;								 //Specular consant buffer
 
 
-
-
-//light variables
-GLfloat light_ambient[] = {0.0, 0.0, 0.0, 1.0};
 
 
 Pipeline pipeline;									// Add one pipeline plus some shaders.
@@ -309,46 +305,35 @@ void update()
 
 //Lighting position controls
 
-	if (keyStatus[GLFW_KEY_U]) lightPos.y += 0.05f;
-	if (keyStatus[GLFW_KEY_J]) lightPos.y -= 0.05f;
-	if (keyStatus[GLFW_KEY_H]) lightPos.x -= 0.05f;
+	if (keyStatus[GLFW_KEY_I]) lightPos.y += 0.05f;
+	if (keyStatus[GLFW_KEY_K]) lightPos.y -= 0.05f;
+	if (keyStatus[GLFW_KEY_J]) lightPos.x -= 0.05f;
 	if (keyStatus[GLFW_KEY_L]) lightPos.x += 0.05f;
 
 //Lighting strength controls
-
-//TODO - change so that values don't go below -0.2 or so, can use if-statements
-//TODO - try work out an on/off switch
-
+//Each light control has limits so that the light can't be decreased below 'zero' and beyond 'upper limit'. 
 	if (keyStatus[GLFW_KEY_V]) {
+		if(ka > -3.3){
 			ka -= 0.01f;          //turns down ambient
 			kab = ka;			  //stores the current ambient constant
 			kd -= 0.01f;	      //turns down diffuse
 			kdb = kd;			  //stores the current diffuse constant
 			ks -= 0.01f;          //turns down specular
 			ksb = ks;             //stores the current specular constant
+		}
 	} 
 	
 	if (keyStatus[GLFW_KEY_B]) {
+		if(ka < 27.0){
 		 ka += 0.01f;            //turns up ambient
 		 kab = ka;               
 		 kd += 0.01f;	         //turns up ambient
 		 kdb = kd;
 		 ks += 0.01f;            //turns up specular
 		 ksb = ks;
+		}
 	}
 
-	if (keyStatus[GLFW_KEY_O]) {
-		if(ka>0.0f){			 //turns lighting off if it's on (by setting all constants to zero)
-			ka = 0.0f;
-			kd = 0.0f;
-			ks = 0.0f;
-		}
-		else {					 //sets lighting back to where it was before being turned off - might be funky if used before turning off.
-			ka = kab;
-			kd = kdb;
-			ks = ksb;
-		}
-	}
 
 
 
@@ -475,6 +460,19 @@ void onKeyCallback(GLFWwindow *window, int key, int scancode, int action, int mo
 
 	if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS)
 		glfwSetWindowShouldClose(window, GLFW_TRUE);
+
+	if (key == GLFW_KEY_O && action == GLFW_PRESS){
+		if(ka>-3.3f){			 //turns lighting off if it's on (by setting all constants to zero)
+			ka = -3.3f;
+			kd = -3.3f;
+			ks = -3.3f;
+		}
+		else {					 //sets lighting back to where it was before being turned off - might be funky if used before turning off.
+			ka = kab;
+			kd = kdb;
+			ks = ksb;
+		}
+	}
 }
 
 void onMouseButtonCallback(GLFWwindow *window, int button, int action, int mods)
