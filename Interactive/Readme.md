@@ -92,7 +92,22 @@ Now I had to add some interactivity with the lights.
 
 #### Light Interactivity
 
+Firstly, keystrokes to move the light around the scene were implemented using the same technique as with the camera and object movement/rotation. Moving the light around was done by using the LightPos attribute that was created with the light, as shown:
 
+![image](https://user-images.githubusercontent.com/67718774/205955923-8dc94990-5f14-4cbf-87f8-d6a6e9febea1.png)
+
+The movement values were kept in line with the other movement values in the program.
+
+Next, I added keystrokes to allow the user to change the strength of all three constants at once so the light could essentially be turned 'off' and 'on'. This was done by having certain keystrokes increase/decrease all 3 constants at once by a small amount in the Update() function, to allow for smooth adjustments to be done. Additionally to this, every time a constant's value was changed the new value was stored in a buffer variable. This allowed me to add an On/Off switch (with a keystroke in the key callback function that required a key to be pressed, rather than just be true) so that the constants' values could all be set to the minimum value and then set back to the previous value with the same button (O). This can be seen more clearly in the code below. 
+
+![image](https://user-images.githubusercontent.com/67718774/205958681-17ba86f0-d0a1-42c8-9765-36473b20f32d.png)
+
+![image](https://user-images.githubusercontent.com/67718774/205958744-29cd1a21-8dfb-4676-8be9-6ad22e4936e2.png)
+
+Additionally, I set limits to how low/high the constant values could go so that diminishing returns on the values didn't become an issue. The values for these limits were found by adding a text value on the window to show the current value of ka, as shown: 
+![image](https://user-images.githubusercontent.com/67718774/205959981-3d4c09e2-a1a2-46b6-9997-9589babc2f91.png)
+
+I then adjusted the values through the previous keystrokes to find the values where the light was nonexistent, and where it completely washed out any colour.
 
 
 
