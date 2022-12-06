@@ -334,8 +334,37 @@ void update()
 		}
 	}
 
+
+	if (keyStatus[GLFW_KEY_G] && keyStatus[GLFW_KEY_1]){
+		ka += 0.01f;
+		kab = ka;
+	}
+
+	if (keyStatus[GLFW_KEY_G] && keyStatus[GLFW_KEY_2]){
+		ka -= 0.01f;
+		kab = ka;
+	}
 	
 
+	if (keyStatus[GLFW_KEY_G] && keyStatus[GLFW_KEY_3]){
+		kd += 0.01f;
+		kdb = kd;
+	}
+
+	if (keyStatus[GLFW_KEY_G] && keyStatus[GLFW_KEY_4]){
+		kd -= 0.01f;
+		kdb = kd;
+	}
+
+	if (keyStatus[GLFW_KEY_G] && keyStatus[GLFW_KEY_5]){
+		ks += 0.01f;
+		ksb = ks;
+	}
+
+	if (keyStatus[GLFW_KEY_G] && keyStatus[GLFW_KEY_6]){
+		ks -= 0.01f;
+		ksb = ks;
+	}
 
 
 
