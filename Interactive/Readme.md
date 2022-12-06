@@ -109,5 +109,7 @@ Additionally, I set limits to how low/high the constant values could go so that 
 
 I then adjusted the values through the previous keystrokes to find the values where the light was nonexistent, and where it completely washed out any colour.
 
+## Final notes
 
+Whilst I was unable to get the original mesh to work in the program, the new (quickly) remodelled version worked well with being able to demonstrate lighting and interaction etc. Due to personal circumstances, a lot less work was able to be done on this than originally intended - I had wished to load in multiple models or somehow find a way to get the original meshes to work, but this was beyond me at this time.
 
