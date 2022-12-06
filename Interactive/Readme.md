@@ -57,5 +57,42 @@ So with a working mesh, I decided I could move on with the rest of the coursewor
 
 ## Lighting
 
+Thankfully most of the code for a simple light was provided on Canvas, so the implementation was done as follows.
+
+#### Source.cpp file
+
+Firstly, in the main Source.cpp file I had to define the variables being sent to the shaders, as shown: 
+![image](https://user-images.githubusercontent.com/67718774/205926422-a9186551-1e3c-475b-b2ad-03aea4b13ff5.png)
+
+The values chosen as the vec3 starting points were simply just chosen through trial and error to find a nice starting effect, and the light position that was given in the lecture slides worked well for my object so I continued with that. 
+
+Next, these variables had to be sent to the shaders. This was done with more template code, as below: 
+![image](https://user-images.githubusercontent.com/67718774/205941734-07be495f-b514-4a96-bcea-c4c4f1c8b8c2.png)
+
+Placing this just above the DrawModel call in Render() allows the lights to be created and then applied to anything that is drawn.
+
+Next, the shaders had to be corrected.
+
+#### Shaders
+
+Both the new vertex shader and new fragment shader were taken from the provided code on Canvas. These are used to calculate the normals, and apply lighting based on those normals and the different variables for ambient, diffuse, and specular lighting.
+
+These shaders can be seen below:
+
+![image](https://user-images.githubusercontent.com/67718774/205948576-7a98a532-73e2-4cde-8e39-0872f1029640.png)
+
+![image](https://user-images.githubusercontent.com/67718774/205948659-e4b2b8ac-c8a8-4b42-8e96-e0627976dea7.png)
+
+
+After some playing around with the values of ia, id, and is (the colour values for ambient, diffuse, and specular), the resulting output was a car with working normals!
+
+![image](https://user-images.githubusercontent.com/67718774/205949315-91258448-e1f9-4c63-b39b-8be9066e1b80.png)
+
+Now I had to add some interactivity with the lights.
+
+#### Light Interactivity
+
+
+
 
 
